@@ -52,7 +52,7 @@ Tào Quang Vinh-2A202604081
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- `report/team/group_report.md`: mục 2.1 (pitch và câu hỏi phản biện), mục 4.1–4.3 (quy trình trước/sau), mục 5 (Problem Statement v0), mục 6,7,8,9
+- `report/team/group_report.md`: mục 2.1 (pitch và câu hỏi phản biện), mục 4.1–4.3 (quy trình trước/sau), mục 5 (Problem Statement v0), mục 6,7
 - Commit `e0f16f8` (`cp5`) cập nhật quy trình trước/sau và Problem Statement v0 trong báo cáo nhóm.
 
 **Điều mình học được từ phần nhóm:**
