@@ -51,7 +51,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Job Story |Khi cần tìm nơi đi chơi khu vực lân cận, tôi muốn có thông tin về khu vực xung quanh để tìm được nơi cần tới phù hợp|
 | Actor | con người |
 | Thời điểm / bối cảnh | bí địa điểm |
-| Quy trình hiện tại (3–7 bước) |1. mở map 2. mở tiktok 3. tìm thông tin quanh khu vực 4. xem review 5. xem quãng đường 6. đến địa điểm |
+| Quy trình hiện tại (3–7 bước) |1. mở map 2. mở tiktok,ig 3. tìm thông tin quanh khu vực 4. xem review 5. xem quãng đường 6. đến địa điểm |
 | Bottleneck (bước nào, mất bao nhiêu phút) |3. tìm thông tin,40p-1h, hay bị khó chọn |
 | Impact (nếu không giải thì sao) |tốn thời gian, 1 tuần dư 2,3 buổi xả stress, mất 120-180p/tuần |
 | Success metric (baseline → target) |bước 2,3,4,5 giảm từ 1,2h xuống 20p, thuận tiện |
@@ -62,7 +62,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 Quy trình nháp hiện tại:
 
 ```
-[1 mở map 2'] → [2 mở tiktok: 2'] → [3 tìm thông tin quanh khu vực: 40']← BOTTLENECK
+[1 mở map 2'] → [2 mở tiktok,ig: 2'] → [3 tìm thông tin quanh khu vực: 40']← BOTTLENECK
 → [4 xem review: 20'] → [5 xem quãng đường: 10'] 
 → [6 đến địa điểm: 5-20']
 
@@ -141,29 +141,27 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày vấn đề tìm địa điểm đi chơi phù hợp ở khu vực lân cận; nêu thời gian tìm thông tin khoảng 40–60 phút. | Nhóm xem xét candidate này và đặt câu hỏi về nhu cầu chưa được đáp ứng bởi Google Maps,social. |
+| Phản biện bài của bạn khác | làm sao validate đúng với file | trả lời được |
+| Nhận phản biện | Tôi nhận câu hỏi: so với gemini thì cái này có gì hơn, gemini vẫn ok mà? | tôi biết mà |
+| Gom cluster / cây OST | Bổ sung phần tôi thực sự đã đóng góp khi nhóm gom các problem hoặc lập cây OST. | Ghi cluster/opportunity mà nhóm xác định nếu có. |
+| Chọn candidate problem | Bổ sung vai trò thực tế của tôi trong thảo luận hoặc chấm điểm candidate. | Báo cáo nhóm chưa ghi candidate cuối cùng; điền sau khi nhóm xác nhận. |
+| Kiểm chứng / research | gemini, tiktok đưa quá rộng thông tin, không quá nhiều thông tin phù hợp | Chưa có kết quả kiểm chứng được ghi nhận trong báo cáo nhóm. |
+| Quy trình nhóm | Mô tả quy trình tìm địa điểm hiện tại qua map, TikTok, tìm thông tin, xem review và kiểm tra quãng đường; đề xuất luồng tương lai có lọc và hỗ trợ tóm tắt review. | Làm rõ bottleneck và phương án có thể thử; thời gian mục tiêu vẫn cần kiểm chứng. |
+| Problem Statement | Đề xuất mô tả actor, quy trình tìm/chọn địa điểm, bottleneck 40–60 phút, metric thời gian và giới hạn AI. | Giúp nêu rõ baseline ước tính, target thử nghiệm và yêu cầu người dùng kiểm tra nguồn trước khi chọn. |
+| Mức can thiệp AI | Đề xuất dùng rule/bộ lọc cho tiêu chí rõ ràng, AI để hỗ trợ tổng hợp review, người dùng kiểm tra và quyết định. | AI chỉ là giả thuyết hỗ trợ; cần so sánh với giải pháp không AI như dùng bộ lọc hoặc danh sách địa điểm lưu sẵn. |
+| Quyết định | Bổ sung quyết định cuối cùng của nhóm sau khi nhóm thống nhất. | Báo cáo nhóm hiện chưa ghi quyết định cuối. |
 
 ---
 
 ## 5. Dùng AI
 
-| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
-|---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Nhờ AI giúp diễn đạt problem tìm địa điểm đi chơi thành Job Story và làm rõ các thông tin cần ghi nhận. | Giúp sắp xếp actor, bối cảnh và dấu hiệu mất thời gian tìm địa điểm. | AI có thể tự thêm chi tiết hoặc số liệu chưa được tôi xác nhận. | Tôi giữ problem tìm địa điểm mình đã nêu; xem thời gian và tần suất là ước tính cần kiểm chứng. |
+| CP2 Problem Card | Nhờ AI sắp xếp Card 1 vào các trường Job Story, quy trình, bottleneck, impact và success metric. | Giúp trình bày quy trình tìm qua map, TikTok, review và quãng đường. | Thời lượng các bước có thể bị tính trùng; AI chưa biết chắc bottleneck nằm ở tìm thông tin hay so sánh review. | Tôi tách thời gian di chuyển khỏi thời gian tìm/chọn, ghi số liệu là ước tính và đánh dấu điểm cần kiểm chứng. |
+| CP4 Research | Nhờ AI gợi ý câu hỏi để kiểm chứng vì sao việc tìm địa điểm mất 40–60 phút. | Gợi ý hỏi về tiêu chí chọn địa điểm, cách tìm hiện tại và phần khiến việc so sánh khó. | Gợi ý không phải bằng chứng; tôi chưa cung cấp kết quả phỏng vấn hoặc khảo sát thực tế. | Tôi không xem giả thuyết là kết quả research; cần kiểm chứng với người thực sự gặp vấn đề. |
+| CP5 Quy trình | Nhờ AI mô tả quy trình hiện tại và đề xuất quy trình tương lai có lọc địa điểm, tóm tắt review và người dùng tự chọn. | Giúp thể hiện bước nào có thể dùng rule, AI hoặc cần người dùng thực hiện. | Quy trình tương lai và mục tiêu 20 phút chưa được thử nghiệm; thời gian và bottleneck còn cần xác nhận. | Tôi giữ quy trình dựa trên trải nghiệm mình nêu, ghi thời lượng là ước tính và không coi mục tiêu tương lai là kết quả đã đo. |
+| CP5–6 Problem Statement | Nhờ AI soạn Actor, quy trình, bottleneck, impact, success metric và boundary cho Card 1. | Giúp nêu rõ thời gian tìm/chọn, cách đo và việc người dùng cần kiểm tra thông tin trước khi chọn. | Baseline, tần suất và target chưa được kiểm chứng; cách viết có thể khiến ước tính nghe như dữ kiện chắc chắn. | Tôi ghi rõ các số liệu là ước tính, target 20 phút là mục tiêu thử nghiệm và người dùng vẫn quyết định địa điểm. |
+| CP6 Mức can thiệp / quyết định | Trao đổi với AI xem ứng dụng gợi ý địa điểm có cần AI không và AI có thể hỗ trợ ở đâu. | Giúp phân biệt lọc theo tiêu chí rõ ràng bằng rule với việc AI tóm tắt review; người dùng kiểm tra và chọn. | Chưa có bằng chứng rằng cần xây app hoặc dùng AI; review có thể thiếu, cũ hoặc không phù hợp. | Tôi xem ứng dụng và AI là giả thuyết cần kiểm chứng, cân nhắc bộ lọc hoặc danh sách địa điểm trước, và chỉ dùng AI hỗ trợ gợi ý/tóm tắt có nguồn. |
 
 ---
 
@@ -172,11 +170,11 @@ Quy trình nháp hiện tại:
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-
+vấn đề xoay quanh hiện thực, nhu cầu sinh ra từ va chạm, không chỉ top 3 mà còn những nhóm khác, rất nhiều góc nhìn và hơn nữa là cách mọi người lựa chọn xử lí vấn đề. ý kiến nào cũng rất tốt, cho thêm kiến thức và góc nhìn về cả kĩ thuật, đời sống, kinh tế. nên có những buooir chia sẻ hơn vì ai thực chiến hướng tới giải pháp nhu cầu thực.
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
+có. sau khi nghĩ giải pháp nhiều và đặt ngược câu hỏi, sinh ra vấn đề là bị lạc hướng và không còn đúng mục đích ban đầu. sau đó phải quay lại vấn đề và xem có thật sự đang hiểu vấn đề đó rõ không. và quyết định nó là 1 bài học cho cả nhóm về việc phải hiểu rõ vấn đề cần giải quyết trước.
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+tôi hiện chưa nhận được câu hỏi phản biện để đổi ý, có thể vấn đề này tôi nghĩ nhiều và lâu hơn so với mọi người nên chưa có câu hỏi key để tôi phải đặt ra thêm vấn đề. 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
