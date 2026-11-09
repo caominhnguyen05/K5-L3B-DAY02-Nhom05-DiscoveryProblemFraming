@@ -1,21 +1,19 @@
 # Team
 
-> Điền file này trên repo chung do nhóm trưởng fork. Nhóm điền phần **Thông tin nhóm** và **Thành viên**. Mỗi người tự điền phần của mình trong **Cá nhân**. Không copy file này sang repo khác.
 
 ## Thông tin nhóm
 
-- Tên nhóm: Nhom05
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: 05
+- Candidate problem nhóm chọn (1 câu): Khi muốn tìm địa điểm đi chơi trong một khu vực nhất định, người dùng muốn nhanh chóng tìm và lựa chọn địa điểm phù hợp với sở thích, ngân sách, khoảng cách và mục đích đi chơi, để giảm thời gian tìm kiếm và so sánh thông tin trên nhiều ứng dụng.
+- Quyết định cuối (Go / Not Yet / No-Go): Go
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
+| 1 | Nguyễn Cao Minh | 2A202604099 | | https://github.com/caominhnguyen05 |
+| 2 | Phạm Hoàng Đức Minh | 2A202604114 | | https://github.com/PH31M|
 | 3 |Tào Quang Vinh |2A202604081 |đóng góp việc |https://github.com/qvinhh2312 |
-| 4 | | | | |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -25,20 +23,19 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
+| CP3 — Hội tụ nhóm | Nguyễn Cao Minh | | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | Phạm Hoàng Đức Minh | | Assumption map, snapshot hoặc survey |
+| CP4 — Research | Phạm Hoàng Đức Minh | | Bảng research có link |
 | CP5 — Quy trình trước/sau |Tào Quang Vinh | | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 |Tào Quang Vinh | | Problem Statement v0 |
 | CP6 — Mức can thiệp + Problem Statement v1 | Tào Quang Vinh| | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định |Tào Quang Vinh | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP6 — Quyết định |Tào Quang Vinh | Nguyễn Cao Minh | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
-Tào Quang Vinh-2A202604081
+### Tào Quang Vinh-2A202604081
 **Phần việc phụ trách:**
 
 - đóng góp ý kiến
@@ -81,3 +78,33 @@ Tào Quang Vinh-2A202604081
 **Điều mình học được từ phần nhóm:**
 
 - [ĐIỀN: 1–2 câu bằng ý của riêng bạn]
+
+
+### NguyenCaoMinh-2A202604099
+
+**Phần việc phụ trách:**
+
+- Phụ trách CP3 (Hội tụ nhóm): gom cluster, xây dựng Opportunity Solution Tree (OST) và chấm điểm shortlist.
+- Hỗ trợ CP6 (Quyết định): đánh giá rủi ro và thống nhất quyết định Go/Not Yet/No-Go.
+- Phụ trách mục 9 trong CP6: Hạn chế và hướng tiếp theo
+- Đóng góp ý kiến và phản biện các candidate problem trong quá trình thảo luận nhóm.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- **Mục 2.1:** Pitch các candidate về tailor CV, tra cứu mark scheme Cambridge và tìm việc phù hợp với CV. Đặt câu hỏi phản biện cho các candidate khác nhằm xác định bottleneck thực sự và xem xét khả năng giải quyết bằng công cụ hiện có.
+- **Mục 2.2:** Gom 9 candidate thành 4 cluster dựa trên các pattern chung: tìm kiếm và lựa chọn thông tin, tra cứu thông tin, xác minh và nhập liệu, cá nhân hóa nội dung.
+- **Mục 2.3:** Xây dựng Opportunity Solution Tree cho problem tìm địa điểm đi chơi, xác định 3 opportunity chính: thông tin phân tán trên nhiều ứng dụng, khó đánh giá mức độ phù hợp và khó đưa ra quyết định.
+- **Mục 2.4:** Lập bảng chấm điểm 3 candidate shortlist theo 7 tiêu chí, hỗ trợ nhóm lựa chọn problem tìm địa điểm đi chơi phù hợp.
+- **Mục 8:** Hỗ trợ đánh giá 4 rủi ro Value, Usability, Feasibility và Viability; rà soát sự đồng bộ giữa Problem Statement và quyết định cuối cùng. Đề xuất giới hạn phạm vi Go ở pilot nhỏ thay vì xây dựng AI Agent phức tạp.
+
+- **Mục 9:** Tổng hợp các hạn chế của giải pháp và đề xuất hướng tiếp theo.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `report/team/group_report.md`: mục 2.1, 2.2 (Cluster), 2.3, 2.4, 8, 9.
+- Commit: `75677cc`, `3f79c47`, `7615147`.
+
+**Điều mình học được từ phần nhóm:**
+
+- Tôi học được cách phân biệt giữa problem và solution, xác định bottleneck cụ thể trước khi nghĩ đến việc ứng dụng AI. Tôi cũng nhận ra rằng không phải vấn đề nào cũng cần AI Agent; đôi khi chỉ cần kết hợp Rule, Workflow và con người kiểm tra là đủ để giải quyết vấn đề hiệu quả.
+
