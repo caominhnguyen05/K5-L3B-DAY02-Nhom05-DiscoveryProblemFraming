@@ -5,10 +5,10 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: 05
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
-- Quyết định cuối: Go / Not Yet / No-Go
+- Candidate problem được chọn (1 câu): Khi muốn tìm địa điểm đi chơi trong một khu vực nhất định, người dùng muốn nhanh chóng tìm và lựa chọn địa điểm phù hợp với sở thích, ngân sách, khoảng cách và mục đích đi chơi, để giảm thời gian tìm kiếm và so sánh thông tin trên nhiều ứng dụng.
+- Quyết định cuối: Go
 
 ---
 
@@ -32,41 +32,54 @@
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
-| ------- | ------------- | ------------- |
-| A       |               |               |
-| B       |               |               |
-| C       |               |               |
+|---|---|---|
+| A — Tìm kiếm và lựa chọn thông tin phù hợp | #2 Tìm địa điểm đi chơi, #7 Tìm job phù hợp, #9 Tư vấn sách tham khảo | Phải tìm kiếm, lọc và so sánh nhiều lựa chọn để xác định phương án phù hợp với nhu cầu cụ thể |
+| B — Tra cứu và hiểu thông tin | #1 Tra cứu trạng thái sách, #5 Tìm hiểu codebase, #6 Tra cứu mark scheme | Mất thời gian tìm đúng thông tin cần thiết trong hệ thống hoặc tài liệu có sẵn |
+| C — Xác minh và nhập liệu | #4 Xác minh lưu trú, #8 Nhập thông tin sách mới | Quy trình thủ công, tốn thời gian thu thập hoặc xác minh thông tin, có thể xảy ra sai sót |
+| D — Cá nhân hóa nội dung | #3 Tailor CV theo job description | Phải đọc yêu cầu cụ thể và chỉnh sửa nội dung hiện có cho phù hợp với từng trường hợp |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
-Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
+**Outcome:** Giảm thời gian tìm kiếm và lựa chọn địa điểm đi chơi phù hợp ở khu vực lân cận từ 40–60 phút xuống dưới 15 phút/lần, đồng thời vẫn đáp ứng các tiêu chí quan trọng của người dùng.
 
 ```text
-OUTCOME:
-├── Opportunity A:
-├── Opportunity B:
-└── Opportunity C:
+OUTCOME: Giảm thời gian tìm và chọn địa điểm đi chơi trong một khu vực từ 40–60 phút xuống dưới 15 phút/lần.
+
+- Opportunity A: Thông tin phân tán
+Thông tin địa điểm nằm rải rác trên nhiều nền tảng (Google Maps, TikTok, Instagram, v.v.), khiến người dùng mất thời gian tìm kiếm và đối chiếu.
+- Opportunity B: Khó đánh giá mức độ phù hợp
+Người dùng khó xác định địa điểm nào phù hợp nhất với sở thích, ngân sách, khoảng cách và mục đích đi chơi.
+- Opportunity C: Khó đưa ra quyết định
+Có quá nhiều lựa chọn và đánh giá khác nhau, khiến người dùng mất thời gian so sánh và lựa chọn địa điểm cuối cùng.
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- Xây dựng chatbot AI gợi ý địa điểm đi chơi dựa trên sở thích. → Đây là giải pháp, không phải nhu cầu của người dùng.
+- Tạo ứng dụng tổng hợp địa điểm từ Google Maps và các nền tảng review. → Đây là tính năng, trong khi vấn đề thực sự là thông tin phân tán và khó so sánh.
+- Dùng AI Agent tự động lên lịch trình đi chơi. → Đây là hướng giải pháp quá rộng, chưa có bằng chứng người dùng cần tự động hóa toàn bộ lịch trình.
+
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
-| --------- | -------: | -----------: | -----------------: | -------------: | ----------: | -------------------------------------: | ---------------: | ---: |
-|           |          |              |                    |                |             |                                        |                  |      |
-|           |          |              |                    |                |             |                                        |                  |      |
-|           |          |              |                    |                |             |                                        |                  |      |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| #1 — Tra cứu trạng thái và vị trí sách | 5 | 5 | 4 | 5 | 4 | 3 | 3 | **29** |
+| #2 — Tìm địa điểm đi chơi phù hợp | 5 | 5 | 3 | 5 | 5 | 5 | 5 | **33** |
+| #3 — Tailor CV theo job description | 5 | 5 | 4 | 5 | 5 | 4 | 4 | **32** |
 
-**Candidate được chọn:**
+**Candidate được chọn:** Tìm địa điểm đi chơi phù hợp ở khu vực lân cận.
 
 **Vì sao chọn:**
+- Problem gần gũi, dễ tiếp cận người dùng để phỏng vấn và kiểm chứng nhu cầu.
+- Có bottleneck rõ ràng: mất khoảng 40–60 phút/lần để tìm kiếm, đọc review và so sánh địa điểm từ nhiều nền tảng như Google Maps, TikTok, Instagram.
+- Có thể đo lường hiệu quả bằng thời gian tìm kiếm (mục tiêu dưới 15 phút/lần) và mức độ hài lòng với địa điểm được chọn.
+- Nhóm quen thuộc với domain và có thể so sánh nhiều phương án từ cải thiện quy trình tìm kiếm, sử dụng bộ lọc đến workflow hoặc AI hỗ trợ.
 
 **Vì sao loại các candidate còn lại:**
+- **#1 — Tra cứu trạng thái và vị trí sách:** Có quy trình rõ và tần suất cao, nhưng cần tiếp cận dữ liệu, phần mềm quản lý thư viện và thủ thư thực tế để kiểm chứng. Ngoài ra, nếu hệ thống đã có thông tin đầy đủ thì cải thiện chức năng tìm kiếm có thể giải quyết phần lớn vấn đề mà không cần AI.
+- **#3 — Tailor CV:** Có pain thực tế (30–60 phút/role, 10–15 role/tuần), nhưng các công cụ AI hiện tại đã hỗ trợ chỉnh sửa CV theo JD. Nhóm cần xác định rõ bước nào vẫn chưa được giải quyết và khó khăn trong việc đánh giá chất lượng CV sau khi chỉnh sửa.
 
-**Xử lý bất đồng (nếu có):**
 
 ---
 
@@ -110,8 +123,7 @@ Buổi 2:
 | Câu nói đáng nhớ nhất (nguyên văn)                |  Đánh giá 4.5 sao trên mạng nhiều khi là do quán tặng nước để khách review. Nhìn ảnh chụp góc nào cũng đẹp, đến nơi thì ngột ngạt không hợp gu mình chút nào.        |
 | Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? |     Muốn tìm một quán cafe yên tĩnh để đọc sách tối thứ 6. Lọc trên app thấy một quán ghi là "yên tĩnh, chill", nhưng đến nơi thì hôm đó quán lại tổ chức sự kiện nhạc hát hò rất ồn, đành phải bỏ về.     |
 | Hiện đang xử lý bằng cách nào (workaround)?       |     Phải đọc thật kĩ từng bình luận 1 sao, 2 sao trên Google Maps. Sau đó vào các hội nhóm review ẩm thực/cafe trên Facebook đọc comment dạo để xem quán có bị "seeding" hay không rồi mới dám chốt.     |
-| Mất bao lâu, bao lần?                             |     Tốn cả tiếng đồng hồ để sàng lọc thông tin giả/thật trước mỗi buổi hẹn quan trọng.
-     |
+| Mất bao lâu, bao lần?                             |     Tốn cả tiếng đồng hồ để sàng lọc thông tin giả/thật trước mỗi buổi hẹn quan trọng.|
 | Insight / opportunity rút ra                      |    Insight: Có sự khủng hoảng niềm tin vào hệ thống rating/review tĩnh. Hình ảnh chỉnh sửa và filter "loại hình" trên app không đủ để diễn tả chính xác hoặc sự kiện đang diễn ra trong ngày của quán. Opportunity: Hệ thống đánh giá dựa trên các tag cảm xúc được update linh hoạt theo khung giờ/ngày, kết hợp xác thực review chống seeding.      |
 
 Tổng hợp:
@@ -226,74 +238,77 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 
 
-- ***
 
 ## 6. Mức can thiệp AI (CP6)
 
+6. Mức can thiệp AI (CP6)
+
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+Bài của nhóm nằm ở ô: Độ mơ hồ thấp × Độ phức tạp thấp
 
-Vì sao:
+Vì sao: Khi chọn theo các tiêu chí, ai sẽ hỗ trợ rule xử lí các review, đánh giá rate, nhu cầu ăn nhẹ hay nặng phù hợp. khi các phương tiện tra cứu hiện nay đánh giá theo tổng thể, không chia đúng rule thì ở đây sẽ có thể check review theo những người có % trùng hợp ý đánh giá, sẽ có độ tương đồng hiểu nhau. rule càng chi tiết, rate càng nhiều thì càng tương đồng nhau. tăng % chính xác trong việc đưa ra gợi ý.
 
 ### 6.2. So sánh 4 mức
 
-| Mức                       | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
-| ------------------------- | -------------------------- | ---------- | ------ | ----- |
-| **No AI** (sửa quy trình) |                            |            |        |       |
-| **Rule**                  |                            |            |        |       |
-| **Workflow**              |                            |            |        |       |
-| **Agent**                 |                            |            |        |       |
+| Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
+|---|---|---|---|---|
+| **No AI** (sửa quy trình) | Lưu địa điểm theo khu vực; dùng map và bộ lọc có sẵn; tự đọc review và so sánh. | Người dùng chủ yếu cần tổ chức danh sách hoặc chưa cần tổng hợp review. | Vẫn phải tự đọc nhiều review và so sánh thủ công. | Có thể thử trước để làm baseline. |
+| **Rule** | Lọc theo khu vực, khoảng cách, loại địa điểm, ngân sách hoặc điểm đánh giá. | Tiêu chí chọn rõ ràng và dữ liệu có sẵn, cập nhật. | Không hiểu tốt nhu cầu diễn đạt tự nhiên hoặc tóm tắt được nội dung review. | Dùng cho bước lọc. |
+| **Workflow** | Nhập tiêu chí → lọc bằng Rule → AI tóm tắt review có nguồn → người dùng kiểm tra và tự chọn. | Quy trình tìm kiếm lặp lại, người dùng thấy việc đọc/tổng hợp review tốn thời gian và bản tóm tắt giúp họ quyết định nhanh hơn. | AI có thể tóm tắt sai, bỏ sót ý kiến trái chiều hoặc dựa trên review cũ; cần cho xem nguồn và có cách quay lại đọc review gốc. | **Chọn thử nghiệm** |
+| **Agent** | AI tự tìm, so sánh nhiều nguồn và chủ động chọn địa điểm hoặc thực hiện đặt chỗ. | Chỉ cân nhắc nếu có nhu cầu giao trọn việc và có dữ liệu, quyền hạn cùng cơ chế kiểm soát phù hợp. | Khó kiểm soát lựa chọn; có thể dùng thông tin cũ hoặc hành động sai ý người dùng. | Không chọn ở giai đoạn này. |
 
-**Mức chọn:**
-
-**Vì sao không chọn mức đơn giản hơn:**
+**Mức chọn:** Workflow có AI hỗ trợ tóm tắt review; Rule xử lý bộ lọc rõ ràng; người dùng kiểm tra và quyết định.
+**Vì sao không chọn mức đơn giản hơn:** Rule có thể lọc theo tiêu chí rõ ràng nhưng không tổng hợp được nội dung review dạng văn bản. Workflow chỉ đáng chọn nếu thử nghiệm xác nhận việc tóm tắt review thực sự giảm thời gian mà vẫn giúp người dùng chọn đúng hơn. Nếu không cải thiện so với tự đọc review hoặc dùng map, nhóm nên quay về No AI/Rule.
 
 ### 6.3. AI Canvas rút gọn
 
-| Thành phần                                                        | Nội dung |
-| ----------------------------------------------------------------- | -------- |
-| **Prediction** — AI dự đoán / tạo ra gì?                          |          |
-| **Judgment** — con người cân nhắc, quyết định gì?                 |          |
-| **Action** — hành động cuối cùng là gì, ai làm?                   |          |
-| **Outcome** — đo kết quả bằng gì?                                 |          |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? |          |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện?                   |          |
+| Thành phần | Nội dung |
+|---|---|
+| **Prediction** — AI dự đoán / tạo ra gì? | Tóm tắt review của các địa điểm tìm được, nêu điểm được khen/chê và lý do địa điểm có thể phù hợp với tiêu chí người dùng. Kèm nguồn để đối chiếu. |
+| **Judgment** — con người cân nhắc, quyết định gì? | Người dùng đánh giá các tiêu chí cá nhân như không gian, giá, độ đông và độ phù hợp; kiểm tra review gốc và chọn địa điểm. |
+| **Action** — hành động cuối cùng là gì, ai làm? | Người dùng chọn địa điểm rồi đi theo dẫn đường. AI không tự đặt chỗ hoặc thực hiện hành động thay người dùng. |
+| **Outcome** — đo kết quả bằng gì? | Thời gian từ lúc bắt đầu tìm đến lúc chọn được địa điểm; mục tiêu thử nghiệm là giảm từ baseline ước tính 74–94 phút xuống khoảng 20 phút. Đo thêm mức độ hài lòng, xem gợi ý phù hợp không và độ tương đồng của phần tóm tắt. |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | Khu vực, loại địa điểm và tiêu chí người dùng nhập; thông tin địa điểm và review có nguồn. Vị trí/quãng đường có thể lấy từ bản đồ; khả năng truy cập review và độ mới của dữ liệu cần kiểm tra. |
+| **Feedback** — lấy phản hồi ở đâu để cải thiện? | Hỏi người dùng bản tóm tắt có phù hợp và đúng với review gốc không; ghi nhận họ có chọn địa điểm được gợi ý không. Chỉ thu thập phản hồi cần thiết và xin phép nếu lưu dữ liệu cá nhân. |
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng: Người dùng muốn AI gợi ý địa điểm và tóm tắt review để so sánh; họ vẫn tự kiểm tra thông tin và quyết định nơi đi. Hiện chưa có bằng chứng cho thấy họ muốn giao toàn bộ việc chọn địa điểm cho AI.
+
+- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào: Báo nhầm địa điểm không phù hợp hoặc dùng thông tin cũ có thể khiến người dùng mất thời gian, thậm chí đi đến nơi không đáp ứng nhu cầu; bỏ sót một địa điểm tốt thường ít rủi ro hơn vì người dùng vẫn có thể tìm thủ công. Vì vậy, AI cần nêu nguồn review, không khẳng định thông tin chưa xác minh, để người dùng kiểm tra review gốc và tự quyết định.
 
 ---
 
 ## 7. Problem Statement v1 + tiêu chí đánh giá (CP6)
 
-| Trường                                          | Nội dung                        |
-| ----------------------------------------------- | ------------------------------- |
-| **Actor**                                       |                                 |
-| **Quy trình**                                   |                                 |
-| **Bottleneck**                                  |                                 |
-| **Impact**                                      |                                 |
-| **Success Metric** (baseline → target, cách đo) |                                 |
-| **Boundary**                                    |                                 |
-| **AI intervention point**                       |                                 |
-| **Mức chọn**                                    | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra**                     |                                 |
+| Trường | Nội dung |
+|---|---|
+| **Actor** | Cá nhân muốn tìm địa điểm phù hợp mục đích tại khu vực cần tìm. |
+| **Quy trình** | Nhập khu vực và tiêu chí → lọc địa điểm bằng map/bộ lọc → tìm và xem review trên các nguồn → kiểm tra quãng đường → tự chọn địa điểm. |
+| **Bottleneck** | Mất khoảng 40 phút tìm thông tin quanh khu vực và khoảng 20 phút xem review; người dùng khó tổng hợp và so sánh lựa chọn. Cần xác nhận các khoảng thời gian này có bị tính trùng không. |
+| **Impact** | Tốn thời gian rảnh và khó chọn được địa điểm phù hợp. Tần suất “2,3 lần mỗi tuần” mới là ước tính, cần kiểm chứng. |
+| **Success Metric** (baseline → target, cách đo) | Thời gian từ lúc bắt đầu tìm đến khi chọn địa điểm: baseline ước tính 74–94 phút → mục tiêu thử nghiệm khoảng 20 phút. Đo bằng thời gian thực tế mỗi lần tìm; không tính thời gian di chuyển và tránh tính trùng thời gian đọc review. |
+| **Boundary** | AI chỉ tóm tắt review có nguồn được cung cấp/truy cập; không tự tạo review, không khẳng định thông tin giá/giờ mở cửa còn chính xác, không đặt chỗ hoặc quyết định thay người dùng. |
+| **AI intervention point** | Tóm tắt điểm được khen/chê trong review và nêu nguồn để người dùng mở kiểm tra. Lọc theo tiêu chí rõ ràng như khu vực, loại địa điểm hoặc khoảng cách dùng Rule. |
+| **Mức chọn** | Workflow |
+| **Rủi ro & người kiểm tra** | AI có thể bỏ sót ý kiến trái chiều, diễn giải sai hoặc dựa trên review cũ. Người dùng mở review gốc và tự xác minh thông tin quan trọng trước khi chọn; nếu bản tóm tắt không đáng tin thì quay lại tìm thủ công trên map/review. |
 
 **Thay đổi so với v0 và lý do:**
 
-| Trường | v0  | v1  | Vì sao đổi |
-| ------ | --- | --- | ---------- |
-|        |     |     |            |
+| Trường | v0 | v1 | Vì sao đổi |
+|---|---|---|---|
+| AI can thiệp ở đâu | AI gợi ý địa điểm theo nhu cầu, kiểm tra review và đưa ra danh sách chấm điểm. | Rule lọc địa điểm theo tiêu chí rõ ràng; AI chỉ tóm tắt review có nguồn; người dùng tự kiểm tra và chọn. | Giới hạn vai trò AI để giảm rủi ro gợi ý thiếu căn cứ và tận dụng bộ lọc có sẵn. |
+| Boundary | Chưa nêu rõ giới hạn và cách xử lý khi AI sai. | AI không tự tạo review hay quyết định thay; người dùng kiểm tra nguồn và có thể quay về cách tìm thủ công. | Cần giữ quyền quyết định cho người dùng và có cách dự phòng khi thông tin sai/thiếu. |
+| Success Metric | Mục tiêu giảm thời gian còn khoảng 20 phút. | Giữ 20 phút là mục tiêu thử nghiệm; đo thời gian từ lúc bắt đầu tìm đến lúc chọn, không tính di chuyển và tránh tính trùng. | Baseline và target chưa được kiểm chứng nên cần nêu rõ cách đo và tính chất ước tính. |
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
 
-|   # | Tiêu chí | Đạt khi | Không đạt khi |
-| --: | -------- | ------- | ------------- |
-|   1 |          |         |               |
-|   2 |          |         |               |
-|   3 |          |         |               |
+| # | Tiêu chí | Đạt khi | Không đạt khi |
+|---:|---|---|---|
+| 1 | Độ trung thực với review nguồn | Tóm tắt đúng ý chính, có thể đối chiếu với review được dẫn nguồn. | Bịa chi tiết, gán sai ý kiến hoặc không có nguồn kiểm tra. |
+| 2 | Bao quát ý kiến trái chiều | Nêu được cả điểm thường được khen và điểm bị chê nếu có trong nguồn. | Chỉ nêu mặt tích cực hoặc bỏ qua nhận xét quan trọng trái chiều. |
+| 3 | Liên quan đến tiêu chí người dùng | Tóm tắt những điểm liên quan đến nhu cầu đã nhập, như giá, không gian hoặc độ yên tĩnh. | Đưa thông tin chung chung, không giúp so sánh theo tiêu chí đã nhập. |
 
 ---
 
@@ -301,33 +316,56 @@ Vì sao:
 
 ### 8.1. Bốn rủi ro
 
-| Rủi ro          | Câu hỏi                                                           | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
-| --------------- | ----------------------------------------------------------------- | ----------------------------------------------------- | ------------------ |
-| **Value**       | Người dùng có thật sự cần và sẽ dùng không?                       |                                                       |                    |
-| **Usability**   | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? |                                                       |                    |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không?                     |                                                       |                    |
-| **Viability**   | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành?     |                                                       |                    |
+| Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
+|---|---|---|---|
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | Trung bình | Cả 2 người được phỏng vấn đều mất khoảng 40–60 phút tìm và đánh giá địa điểm. Các bộ lọc và rating hiện tại chưa đủ để họ đưa ra quyết định. Tuy nhiên, mẫu phỏng vấn mới có 2 người, chưa chứng minh nhu cầu phổ biến hoặc người dùng sẽ sử dụng công cụ mới thường xuyên. |
+| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | Thấp | Quy trình sử dụng tương đối đơn giản: nhập khu vực và tiêu chí → xem danh sách → đọc tóm tắt review → tự chọn. Người dùng vẫn có thể mở review gốc để kiểm tra. Tuy nhiên, cần thử nghiệm xem họ có hiểu và tin tưởng thông tin tóm tắt hay không. |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | Trung bình | Có thể xây dựng pilot bằng cách lọc địa điểm theo tiêu chí và dùng AI tóm tắt review từ dữ liệu được cung cấp. Tuy nhiên, chưa xác minh được khả năng truy cập dữ liệu qua API, độ mới của review và thông tin về giá, giờ mở cửa, tình trạng còn bàn. |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | Trung bình | Pilot có thể giới hạn số địa điểm và lượt xử lý để kiểm soát chi phí. Tuy nhiên, cần kiểm tra điều khoản sử dụng dữ liệu từ các nền tảng, quyền riêng tư về vị trí người dùng và chi phí API khi mở rộng. Nhóm chịu trách nhiệm vận hành trong giai đoạn thử nghiệm. |
 
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Quyết định:** Go — pilot phạm vi nhỏ.
 
 **Lý do:**
 
+- Có tín hiệu về nhu cầu thực tế: cả 2 người được phỏng vấn đều gặp khó khăn khi tìm địa điểm phù hợp và phải sử dụng nhiều ứng dụng để xác thực thông tin.
+- Problem có thể đo lường bằng thời gian từ lúc bắt đầu tìm đến khi chọn được địa điểm, kết hợp với mức độ hài lòng và độ chính xác của thông tin.
+- Có thể thử nghiệm giải pháp với phạm vi nhỏ, kết hợp Rule để lọc địa điểm, AI để tóm tắt review và con người để kiểm tra, quyết định.
+- Chưa cần xây dựng AI Agent tự động tìm kiếm hay đặt chỗ. Việc giới hạn quyền của AI giúp giảm chi phí và rủi ro.
+- Các rủi ro hiện tại có thể tiếp tục kiểm chứng thông qua pilot trước khi quyết định mở rộng sản phẩm.
+
 **Nếu Go — pilot nhỏ nhất:**
 
-**Nếu Not Yet — cần kiểm chứng gì trước:**
+Thử nghiệm trong 2 tuần với khoảng 15-20 người dùng có nhu cầu tìm quán cafe hoặc địa điểm gặp gỡ bạn bè.
 
-**Nếu No-Go — nên làm gì thay AI:**
+1. Giới hạn phạm vi ở một khu vực cụ thể và một số loại địa điểm phổ biến như quán cafe, địa điểm học tập hoặc gặp gỡ bạn bè.
+2. Cho người dùng nhập khu vực, ngân sách, khoảng cách và yêu cầu về không gian (yên tĩnh, phù hợp nhóm đông người, v.v.).
+3. Dùng Rule lọc danh sách địa điểm từ dữ liệu được phép sử dụng. AI tóm tắt ưu điểm, nhược điểm từ review có nguồn để người dùng so sánh.
+4. Người dùng kiểm tra lại review gốc, thông tin quan trọng và tự chọn địa điểm. Với thông tin còn bàn hoặc mức độ đông đúc chưa được xác minh, công cụ phải thông báo rõ là chưa có dữ liệu.
+5. Đo thời gian tìm kiếm, ghi nhận mức độ hài lòng và các trường hợp AI tóm tắt sai, thiếu thông tin hoặc không có nguồn.
 
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+**Nếu Not Yet — cần kiểm chứng gì trước:** Phỏng vấn người từng tìm địa điểm gần đây về lần tìm cụ thể gần nhất; xác minh thời gian và bước gây tốn công; thử so sánh cách dùng bộ lọc/danh sách lưu với cách có AI tóm tắt; kiểm tra nguồn dữ liệu review, độ mới và điều kiện sử dụng.
 
+**Nếu No-Go — nên làm gì thay AI:** Cải thiện quy trình không AI: lưu địa điểm theo khu vực, dùng bộ lọc hiện có, chuẩn hóa tiêu chí so sánh và ghi chú review/địa điểm.
+
+**Ngưỡng dừng:**
+- Dừng nếu sau 2 tuần, thời gian trung bình từ lúc bắt đầu tìm đến lúc chọn được địa điểm vẫn trên 45 phút, hoặc dưới 50% lượt dùng đạt mục tiêu dưới 30 phút.
+- Dừng nếu trên 10–15% bản tóm tắt chứa thông tin sai, bịa hoặc không truy được về review gốc, hoặc có từ 2 trường hợp người dùng đến nơi thấy thông tin quan trọng sai so với công cụ khẳng định.
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+**Hạn chế:**
 
-## 10. Tài liệu tham khảo
+- **Mẫu kiểm chứng còn nhỏ:** Cần phỏng vấn thêm nhiều nhóm người, nhiều độ tuổi khác nhau để kết luận vấn đề phổ biến với nhiều nhóm người dùng khác nhau.
+- **Rủi ro về độ tin cậy:** Review có thể bị seeding, lỗi thời hoặc không phản ánh đúng trải nghiệm thực tế. AI có thể tóm tắt sai hoặc bỏ sót những đánh giá tiêu cực quan trọng.
+- **Phụ thuộc nguồn dữ liệu bên ngoài:** Khả năng truy cập thông tin địa điểm, quyền sử dụng review và chi phí API chưa được xác minh đầy đủ.
 
--
+**Hướng tiếp theo:**
+
+1. Phỏng vấn thêm người dùng và quan sát trực tiếp quá trình tìm địa điểm để xác định bottleneck thực sự.
+2. Đo thời gian thực hiện từng bước: tìm địa điểm, đọc review, so sánh lựa chọn và ra quyết định.
+3. Thử nghiệm đối chứng giữa cách tìm hiện tại (Google Maps/TikTok), chatbot AI có sẵn và workflow đề xuất của nhóm.
+4. Xây dựng pilot nhỏ, tập trung vào một khu vực và một loại địa điểm để kiểm chứng khả năng giảm thời gian tìm kiếm.
+5. Đánh giá chất lượng bản tóm tắt AI theo độ chính xác, khả năng truy xuất nguồn và mức độ phù hợp với tiêu chí người dùng.
