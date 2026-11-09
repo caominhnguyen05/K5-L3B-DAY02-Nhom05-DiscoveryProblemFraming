@@ -125,16 +125,16 @@ Setup hệ thống Automation: 8:00 AM hàng ngày -> Tự động query Databas
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | Pitch candidate #1 (thủ thư tra cứu trạng thái và vị trí sách) ở mục 2.1 báo cáo nhóm: actor là thủ thư và sinh viên, bottleneck là 20–30 lượt nhờ tìm hộ mỗi ngày, mỗi lượt 3–5 phút. | Candidate nằm ở hàng 1 của bảng pitch. Nhóm chọn bài của Vinh (tìm địa điểm đi chơi) thay vì bài của tôi. [ĐIỀN: tôi đồng ý hay không với lựa chọn đó, vì sao] |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
+| Pitch Problem Card | Pitch candidate #1 (thủ thư tra cứu trạng thái và vị trí sách) ở mục 2.1 báo cáo nhóm: actor là thủ thư và sinh viên, bottleneck là 20–30 lượt nhờ tìm hộ mỗi ngày, mỗi lượt 3–5 phút. | Candidate nằm ở hàng 1 của bảng pitch. Nhóm chọn bài của Vinh (tìm địa điểm đi chơi) thay vì bài của tôi. Tôi hoàn toàn đồng ý với lựa chọn này. Vì bài toán tìm địa điểm của Vinh sát với nhu cầu thực tế của mọi thành viên, dễ dàng tìm đối tượng phỏng vấn ngay lập tức. Đồng thời, "đất" để ứng dụng AI (phân tích review, tổng hợp vibe) rõ nét và tiềm năng hơn hệ thống quản lý nội bộ của thư viện. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt (cho bài của Vinh): "Việc người dùng tốn 40-60 phút lướt tìm quán có thực sự là 'nỗi đau' (pain point) không, hay đó vốn dĩ là sở thích lướt mạng xem ảnh đẹp của họ? Làm sao phân biệt được?"  | Giúp nhóm nhận ra cần thu hẹp đối tượng (actor). Nhóm quyết định tập trung vào những người "cần chốt địa điểm cho nhóm đông người hoặc có mục đích rõ ràng (hẹn hò, làm việc)" thay vì những người chỉ tìm kiếm vô định để giải trí.|
 | Nhận phản biện | Câu hỏi tôi nhận được: hệ thống quản lý thư viện hiện tại đã có thông tin trạng thái và vị trí sách chưa; nếu đã có thì vì sao thủ thư vẫn tra tay; cải thiện tìm kiếm và hiển thị có đủ giải quyết mà không cần AI không (ghi ở mục 2.1). | Tôi đã sửa gì: [ĐIỀN: sau câu hỏi này tôi đổi hoặc giữ gì trong candidate của mình, và vì sao] |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | Điền Assumption Map (mục 3.1, 5 giả định) và Interview Snapshot (mục 3.2) trong báo cáo nhóm; commit "CP04 - Group_Report" ngày 09/11. [ĐIỀN: tôi hỏi bao nhiêu người, ai, bằng cách nào] | [ĐIỀN: kết quả kiểm chứng làm nhóm giữ hay sửa problem thế nào] |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Gom cluster / cây OST | Tham gia cùng nhóm phân loại các ý tưởng và pain point trong đề tài "Tìm địa điểm" của Vinh. Tôi đề xuất chia làm 2 cụm: "Thiếu thông tin tĩnh" (địa chỉ, giá cả) và "Thiếu thông tin động" (độ đông đúc, vibe, review thật).| Giúp nhóm hình thành cây OST (Opportunity Solution Tree) rõ ràng. Xác định được Opportunity lớn nhất nằm ở cụm "Thiếu thông tin động và niềm tin vào review", bỏ qua mảng "thông tin tĩnh" vì Google Maps đã làm quá tốt.|
+| Chọn candidate problem |Cùng nhóm thảo luận và biểu quyết chọn nhánh rễ sâu nhất: "Sự khủng hoảng niềm tin vào review ảo và hình ảnh chỉnh sửa quá đà trên các nền tảng mạng xã hội". | Chốt được hướng đi lõi cho CP4, giúp cả nhóm đồng nhất tư tưởng không tập trung làm "một cái Google Maps thứ 2" mà làm "công cụ xác thực sự thật"|
+| Kiểm chứng / research | Điền Assumption Map (mục 3.1, 5 giả định) và Interview Snapshot (mục 3.2) trong báo cáo nhóm; commit "CP04 - Group_Report" ngày 09/11. Kiểm chứng: Tôi phụ trách phỏng vấn sâu (1-1) trực tiếp 01 bạn nam (sinh viên năm 3, hay làm leader đi chơi) và gửi khảo sát nhanh qua tin nhắn cho 1 nhóm bạn. |Kết quả kiểm chứng làm nhóm sửa problem: Nhóm nhận ra người dùng không hề thiếu công cụ, họ sẵn sàng nhảy qua 3-4 app (Maps -> TikTok -> FB). Nhóm sửa Problem Statement: chuyển trọng tâm từ "Thiếu bộ lọc địa điểm" sang "Thiếu công cụ xác thực chéo (cross-check) nhanh chóng về không gian (vibe) và tình trạng thực tế".
+| Quy trình nhóm | Cùng nhóm vẽ lại quy trình hiện tại (As-is Workflow) của người dùng: (1) Khám phá trên Maps -> (2) Lên TikTok xem clip thực tế -> (3) Đọc comment bóc phốt -> (4) Nhắn tin Fanpage hỏi bàn. | Xác định được Bottleneck (điểm nghẽn) lớn nhất gây mất thời gian là bước (2) và (3): Phải cày hàng tá video và comment để tự lọc ra thông tin thật-giả. |
+| Problem Statement | Trực tiếp chấp bút, tổng hợp ý của các thành viên để viết lại câu Problem Statement cuối cùng sau khi kiểm chứng sao cho ngắn gọn, súc tích. | Đảm bảo báo cáo nhóm có một Problem Statement rõ ràng, đầy đủ ngữ cảnh (Context), đối tượng (Actor), và nguyên nhân sâu xa (Root cause). |
+| Mức can thiệp AI | Đề xuất giải pháp AI: Dùng AI Agent tự động cào (crawl) các video TikTok/Reels mới nhất được tag tại quán đó, dùng Vision/LLM để đánh giá "vibe" và trích xuất summary cho người dùng. | Nhóm ghi nhận đây là một ý tưởng (Hypothesis) rất khả thi và có tính đột phá (Wow factor) để đưa vào giai đoạn Ideation (lên ý tưởng giải pháp) ở buổi sau. |
+| Quyết định | Kiểm tra chéo (review) toàn bộ file Markdown báo cáo nhóm cuối ngày, rà soát lỗi chính tả và tính logic giữa các phần CP1 -> CP4 trước khi nộp. | Đảm bảo báo cáo nhóm chỉn chu, logic xuyên suốt từ lúc nhận bài của Vinh cho đến khi chốt được định nghĩa vấn đề cuối cùng. |
 
 ---
 
@@ -142,12 +142,12 @@ Setup hệ thống Automation: 8:00 AM hàng ngày -> Tự động query Databas
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Nhập bối cảnh "thủ thư thư viện đại học" và yêu cầu AI liệt kê các pain point phổ biến theo các lăng kính (lặp lại, tốn thời gian).|Gợi ý rất nhanh cấu trúc phân loại vấn đề và đưa ra được các ý tưởng cơ bản (nhập liệu, xếp sách, nhắc trả sách). | Các vấn đề AI đưa ra quá chung chung, mang tính lý thuyết sách vở (ví dụ: "thủ thư mệt mỏi vì khiêng sách nặng") chứ không sát với quy trình phần mềm ở Việt Nam.|Tôi bỏ các ý vật lý (khiêng vác) và tự viết lại các pain point tập trung vào quy trình xử lý luồng dữ liệu (ví dụ: gõ tay mã ISBN, tìm mục lục thủ công). |
+| CP2 Problem Card | Đưa bản nháp Problem Card #2 (Tư vấn tài liệu chuyên sâu) cho AI (Claude/ChatGPT) đóng vai "Product Manager khó tính" để phản biện.| Chỉ ra ngay lỗ hổng về tính khả thi của dữ liệu (Data Readiness) và nhắc nhở rủi ro AI bịa thông tin (Hallucination).| AI gợi ý Success Metric quá viển vông (ví dụ: "Giảm 100% thời gian tìm kiếm", "Độ chính xác 100%").| Tôi điều chỉnh lại Success Metric thực tế hơn (giảm xuống dưới 3 phút/lượt) và thêm điều kiện thu hẹp phạm vi (chỉ áp dụng cho E-book ở Phase 1).|
+| CP4 Research | Nhờ AI soạn danh sách câu hỏi phỏng vấn sâu (In-depth Interview) cho đề tài nhóm: "Tìm địa điểm đi chơi".| Lên được cấu trúc phỏng vấn tốt (Mở đầu -> Khơi gợi tình huống -> Đào sâu workaround -> Đóng).| AI mặc định nguyên nhân tốn 40-60 phút là do "app thiếu bộ lọc (filter)", nên các câu hỏi toàn xoay quanh việc hỏi người dùng thích filter gì.|Tôi xóa các câu hỏi về filter. Tự thêm các câu hỏi xoáy sâu vào hành vi "check chéo" qua TikTok/Facebook để tìm hiểu về "khủng hoảng niềm tin" đối với review ảo. |
+| CP5 Quy trình | Yêu cầu AI vẽ As-is Workflow (quy trình hiện tại) từ lúc nảy sinh nhu cầu đến lúc chốt quán cafe.|Phân chia các bước (Khám phá -> Cân nhắc -> Quyết định) rất gọn gàng, rành mạch. | AI vẽ quy trình theo đường thẳng (Linear) và mặc định người dùng chỉ dùng 1 app duy nhất (Google Maps) từ đầu đến cuối.| Tôi tự vẽ lại quy trình dạng vòng lặp (Loop) và thêm rẽ nhánh đa nền tảng: bộc lộ rõ bước người dùng phải nhảy sang app khác (TikTok, FB) để xác thực "vibe".|
+| CP5–6 Problem Statement | Cung cấp các insight sau phỏng vấn và nhờ AI viết lại 3 version Problem Statement sao cho súc tích, chuẩn format.|Giúp câu văn mượt mà, chuyên nghiệp hơn, gom các ý dài dòng thành các cụm từ đắt giá. | Bản tóm tắt của AI làm mất đi các key word quan trọng nhất mang tính địa phương / gen Z như "check vibe", "sợ seeding".| Tôi trộn version của AI với keyword gốc của nhóm để ra câu chốt: nhấn mạnh vào "xác thực chéo không gian (vibe) thực tế" do "mất niềm tin vào review ảo".|
+| CP6 Mức can thiệp / quyết định |Đưa Problem Statement cuối cùng cho AI để brainstorm ý tưởng giải pháp (Ideation) và đánh giá mức độ cần thiết của GenAI. | Đề xuất được ý tưởng dùng Vision AI để phân tích video/hình ảnh thực tế và trích xuất tóm tắt không khí (vibe summary).| AI tham vọng khuyên nhóm nên xây dựng một mạng xã hội review địa điểm mới toanh hoặc một app bản đồ mới tích hợp AI (quá sức và phi thực tế).| Tôi bác bỏ ý tưởng làm app bản đồ mới. Quyết định định hướng sản phẩm chỉ là một "AI Agent Aggregator" (Công cụ tổng hợp) gắn dưới dạng Plugin hoặc Mini-app chuyên đi cào dữ liệu để xác thực.|
 
 ---
 
