@@ -20,45 +20,18 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
+| 1 |Tốn thời gian |Khi cần tìm nơi đi chơi khu vực lân cận, tôi muốn có thông tin về khu vực xung quanh để tìm được nơi cần tới phù hợp|Cá nhân |tự search 1-2h( xui không ưng ý) |
+| 2 |Lặp lại |Khi cần xác minh lưu trú, công an muốn có thông tin về nơi lưu trú có đúng khai báo hay không hay hiện tại nơi lưu trú đang như nào để kiểm soát khu vực hợp lí |công an |gọi xác minh không nghe máy, đến tận nơi nhưng không có nhà |
+| 3 |Cần đọc, tổng hợp nhiều thông tin |khi cần tìm hiểu nội dung mới, tôi muốn tổng hợp thông tin cần để nắm rõ hiện tại cần tìm hiểu gì cho đúng, hợp lí |cá nhân |tiếp nhận code 1 ngày nhưng chưa nắm hết |
+| 4 |pain từ người khác |khi labcoach cần thông tin về những gì tôi học, tôi muốn tổng hợp thông tin để labcoach nắm được |labcoach |mỗi ngày 30p |
+| 5 |tốn thời gian | khi cần xây dựng 1 chế độ ăn uống, tôi muốn duy trì trong 1 thời gian rõ ràng và tác dụng để điều chỉnh mục tiêu hướng tới phù hợp | cá nhân | mỗi ngày tìm thực phẩm phù hợp 1h |
+| 6 |lặp lại | khi xây dựng 1 ứng dụng phục vụ cá nhân, tôi muốn hàng ngày dành thời gian nhất định trong khung giờ phù hợp hàng ngày để duy trì việc xây dựng | ceo |mỗi ngày set up lịch trống 30p |
+| 7 |lặp lại  |khi cần đến 1 nơi, khách hàng muốn biết thời gian nếu đặt và đến nơi sẽ được tính toán trong bao lâu để đặt xe cho phù hợp | khách hàng | đặt xe không có xế bị delay việc |
+| 8 |Pain từ người khác | khi producer nhận thông tin, họ muốn nắm được artist muốn gì để làm đúng mong muốn của artist |artist |artist yêu cầu lại 6,7 lần |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
--
----:|---|---|---|---|
-| 1 | Tìm địa điểm đi chơi phù hợp ở khu vực lân cận | Mất khoảng 40–60 phút tìm và so sánh thông tin trên nhiều ứng dụng. | Tần suất xảy ra và thời gian thực tế cần được ghi nhận thêm. | |
-| 2 | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
-| 3 | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
-| 4 | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
-| 5 | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
-| 6 | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
-| 7 | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
-| 8 | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
-
-**Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
-
--
+- ý kiến cá nhân, xuất phát từ thực tế
 
 ---
 
@@ -68,53 +41,55 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | Tìm địa điểm đi chơi phù hợp ở khu vực lân cận | Mất khoảng 40–60 phút tìm và so sánh thông tin trên nhiều ứng dụng. | Tần suất xảy ra và thời gian thực tế cần được ghi nhận thêm. |
-| 2 | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. |
-| 3 | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. |
+| 1 | 1|khi di chuyển tới 1 nơi mới hay ở khu vực lân cận thiếu thông tin, mất nhiều thời gian để tìm hiểu và lọc thông tin | lượng đánh giá sẽ là bot hay người |
+| 2 | 2| với việc tạm trú và thay đổi khu vực sau vài tháng 1 lần của nhiều người, nắm thông tin địa bàn rất quan trọng trong việc bảo đảm an toàn khu vực| lượng người đổi nơi ở liên tục |
+| 3 |3 |cần hiểu đúng, tổng hợp không bị thiếu thông tin cần nắm | thông tin có được giữ đủ không hay cái thừa cái thiếu|
 
 ### Problem Card #1
-
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi cần tìm nơi đi chơi ở khu vực lân cận, tôi muốn tìm và so sánh nhanh các địa điểm phù hợp với nhu cầu để chọn được nơi muốn đến. |
-| Actor | Cá nhân muốn tìm địa điểm đi chơi gần khu vực mình đang ở |
-| Thời điểm / bối cảnh | Khi bí ý tưởng đi đâu, thường vào thời gian rảnh để thư giãn. |
-| Quy trình hiện tại (3–7 bước) | 1. Mở map. 2. Mở TikTok. 3. Tìm thông tin quanh khu vực. 4. Xem review. 5. Xem quãng đường. 6. Đến địa điểm đã chọn. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3: tìm thông tin quanh khu vực mất khoảng 40–60 phút; khó chọn giữa nhiều địa điểm. |
-| Impact (nếu không giải thì sao) | Tốn thời gian tìm kiếm trong thời gian rảnh. Nếu xảy ra hai lần mỗi tuần, riêng bước tìm thông tin có thể chiếm khoảng 80–120 phút/tuần; cần xác nhận tần suất và thời gian thực tế. |
-| Success metric (baseline → target) | Thời gian tìm và chọn địa điểm: baseline ước tính khoảng 74–94 phút nếu cộng các bước 1–5 theo thời lượng đã ghi; mục tiêu dự kiến 20 phút. Cần đo lại và không tính thời gian di chuyển. |
-| Phương án không dùng AI | Ghi chú địa điểm theo khu vực; dùng map để xem các địa điểm lân cận và lọc theo nhu cầu. |
-| Giả thuyết về AI (nếu có) | AI có thể gợi ý địa điểm theo nhu cầu, tổng hợp review và đưa ra danh sách để người dùng so sánh. Cần kiểm tra độ chính xác của thông tin và mức độ phù hợp của gợi ý. |
-| Cảm nhận nhanh | Workflow |
+| Job Story |Khi cần tìm nơi đi chơi khu vực lân cận, tôi muốn có thông tin về khu vực xung quanh để tìm được nơi cần tới phù hợp|
+| Actor | con người |
+| Thời điểm / bối cảnh | bí địa điểm |
+| Quy trình hiện tại (3–7 bước) |1. mở map 2. mở tiktok 3. tìm thông tin quanh khu vực 4. xem review 5. xem quãng đường 6. đến địa điểm |
+| Bottleneck (bước nào, mất bao nhiêu phút) |3. tìm thông tin,40p-1h, hay bị khó chọn |
+| Impact (nếu không giải thì sao) |tốn thời gian, 1 tuần dư 2,3 buổi xả stress, mất 120-180p/tuần |
+| Success metric (baseline → target) |bước 2,3,4,5 giảm từ 1,2h xuống 20p, thuận tiện |
+| Phương án không dùng AI |note địa điểm theo khu vực, check khu vực lân cận trên map |
+| Giả thuyết về AI (nếu có) | ai gợi ý bám sát nhu cầu, check review và đưa ra list theo chấm điểm |
+| Cảm nhận nhanh | workflow |
 
 Quy trình nháp hiện tại:
 
-```text
-[1 Mở map: 2 phút] → [2 Mở TikTok: 2 phút] → [3 Tìm thông tin quanh khu vực: 40–60 phút] ← BOTTLENECK
-→ [4 Xem review: 20 phút] → [5 Xem quãng đường: 10 phút] → [6 Đến địa điểm: 5–20 phút]
 ```
+[1 mở map 2'] → [2 mở tiktok: 2'] → [3 tìm thông tin quanh khu vực: 40']← BOTTLENECK
+→ [4 xem review: 20'] → [5 xem quãng đường: 10'] 
+→ [6 đến địa điểm: 5-20']
+
+```
+
 ### Problem Card #2
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi cần tìm nơi đi chơi ở khu vực lân cận, tôi muốn tìm và so sánh nhanh các địa điểm phù hợp với nhu cầu để chọn được nơi muốn đến. |
-| Actor | Cá nhân muốn tìm địa điểm đi chơi gần khu vực mình đang ở |
-| Thời điểm / bối cảnh | Khi bí ý tưởng đi đâu, thường vào thời gian rảnh để thư giãn. |
-| Quy trình hiện tại (3–7 bước) | 1. Mở map. 2. Mở TikTok. 3. Tìm thông tin quanh khu vực. 4. Xem review. 5. Xem quãng đường. 6. Đến địa điểm đã chọn. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3: tìm thông tin quanh khu vực mất khoảng 40–60 phút; khó chọn giữa nhiều địa điểm. |
-| Impact (nếu không giải thì sao) | Tốn thời gian tìm kiếm trong thời gian rảnh. Nếu xảy ra hai lần mỗi tuần, riêng bước tìm thông tin có thể chiếm khoảng 80–120 phút/tuần; cần xác nhận tần suất và thời gian thực tế. |
-| Success metric (baseline → target) | Thời gian tìm và chọn địa điểm: baseline ước tính khoảng 1 giờ 14 phút–1 giờ 34 phút nếu cộng các bước 1–5 theo thời lượng đã ghi; mục tiêu dự kiến 20 phút. Cần đo lại và không tính thời gian di chuyển. |
-| Phương án không dùng AI | Ghi chú địa điểm theo khu vực; dùng map để xem các địa điểm lân cận và lọc theo nhu cầu. |
-| Giả thuyết về AI (nếu có) | AI có thể gợi ý địa điểm theo nhu cầu, tổng hợp review và đưa ra danh sách để người dùng so sánh. Cần kiểm tra độ chính xác của thông tin và mức độ phù hợp của gợi ý. |
+| Job Story | Khi cần kiểm tra thông tin lưu trú tại một địa chỉ, công an muốn xác minh được người đang lưu trú và tình trạng thực tế tại đó để quản lý địa bàn và phát hiện trường hợp khai báo chưa chính xác. |
+| Actor | Công an phụ trách quản lý địa bàn |
+| Thời điểm / bối cảnh | Khi cần kiểm tra, đối chiếu thông tin khai báo lưu trú hoặc xác minh tình hình tại một nơi lưu trú. |
+| Quy trình hiện tại (3–7 bước) | 1. Xác định địa chỉ cần kiểm tra. 2. Tra cứu thông tin lưu trú đã khai báo. 3. Gọi điện cho người lưu trú hoặc chủ cơ sở để xác minh. 4. Nếu không liên hệ được, đến trực tiếp địa chỉ. 5. Hỏi người có mặt hoặc kiểm tra tình hình tại nơi lưu trú. 6. Ghi nhận và đối chiếu kết quả với thông tin đã khai báo. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3–4: người được gọi không nghe máy hoặc không có mặt khi đến kiểm tra, khiến công an phải liên hệ lại hoặc đi kiểm tra nhiều lần. Thời gian và tần suất cần xác minh thực tế. |
+| Impact (nếu không giải thì sao) | Tốn thời gian và công sức xác minh; thông tin lưu trú có thể chưa được cập nhật hoặc đối chiếu kịp thời, gây khó khăn cho việc nắm tình hình và quản lý địa bàn. |
+| Success metric (baseline → target) | Tỷ lệ xác minh thành công trong lần liên hệ đầu tiên: hiện tại cần đo → mục tiêu tăng. Thời gian trung bình để hoàn tất một lần xác minh: hiện tại cần đo → mục tiêu giảm. |
+| Phương án không dùng AI | Chuẩn hóa thông tin liên hệ và lịch xác minh; nhắc cơ sở/người lưu trú cập nhật thông tin khi thay đổi; ghi nhận các lần liên hệ và kết quả để tránh làm lại. |
+| Giả thuyết về AI (nếu có) | AI có thể hỗ trợ tổng hợp thông tin đã có, phát hiện trường hợp thông tin thiếu hoặc cần đối chiếu, và gợi ý thứ tự ưu tiên xác minh. Cần kiểm chứng tính chính xác và quy định về dữ liệu trước khi áp dụng. |
 | Cảm nhận nhanh | Workflow |
-
 Quy trình nháp hiện tại:
 
-```text
+```Xác định địa chỉ cần kiểm tra
+→ Tra cứu thông tin lưu trú đã khai báo
+→ Gọi người lưu trú hoặc chủ cơ sở
+→ Nếu không liên hệ được, đến trực tiếp
+→ Ghi nhận tình hình thực tế
+→ Đối chiếu và cập nhật kết quả
 
 ```
 
@@ -122,41 +97,44 @@ Quy trình nháp hiện tại:
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi cần tìm nơi đi chơi ở khu vực lân cận, tôi muốn tìm và so sánh nhanh các địa điểm phù hợp với nhu cầu để chọn được nơi muốn đến. |
-| Actor | Cá nhân muốn tìm địa điểm đi chơi gần khu vực mình đang ở |
-| Thời điểm / bối cảnh | Khi bí ý tưởng đi đâu, thường vào thời gian rảnh để thư giãn. |
-| Quy trình hiện tại (3–7 bước) | 1. Mở map. 2. Mở TikTok. 3. Tìm thông tin quanh khu vực. 4. Xem review. 5. Xem quãng đường. 6. Đến địa điểm đã chọn. |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3: tìm thông tin quanh khu vực mất khoảng 40–60 phút; khó chọn giữa nhiều địa điểm. |
-| Impact (nếu không giải thì sao) | Tốn thời gian tìm kiếm trong thời gian rảnh. Nếu xảy ra hai lần mỗi tuần, riêng bước tìm thông tin có thể chiếm khoảng 80–120 phút/tuần; cần xác nhận tần suất và thời gian thực tế. |
-| Success metric (baseline → target) | Thời gian tìm và chọn địa điểm: baseline ước tính khoảng 1 giờ 14 phút–1 giờ 34 phút nếu cộng các bước 1–5 theo thời lượng đã ghi; mục tiêu dự kiến 20 phút. Cần đo lại và không tính thời gian di chuyển. |
-| Phương án không dùng AI | Ghi chú địa điểm theo khu vực; dùng map để xem các địa điểm lân cận và lọc theo nhu cầu. |
-| Giả thuyết về AI (nếu có) | AI có thể gợi ý địa điểm theo nhu cầu, tổng hợp review và đưa ra danh sách để người dùng so sánh. Cần kiểm tra độ chính xác của thông tin và mức độ phù hợp của gợi ý. |
+| Job Story | Khi tiếp nhận một codebase hoặc dự án mới, tôi muốn tổng hợp được cấu trúc, chức năng và các luồng xử lý chính để hiểu mình cần tìm hiểu gì và có thể bắt đầu làm việc đúng hướng. |
+| Actor | Cá nhân tiếp nhận codebase mới |
+| Thời điểm / bối cảnh | Khi mới tham gia một dự án hoặc được giao làm việc với codebase chưa quen. |
+| Quy trình hiện tại (3–7 bước) | 1. Đọc yêu cầu hoặc tài liệu bàn giao. 2. Tìm cách chạy dự án. 3. Đọc cấu trúc thư mục và các file chính. 4. Tìm kiếm các chức năng hoặc luồng liên quan đến công việc được giao. 5. Chạy thử chương trình và kiểm tra kết quả. 6. Hỏi người đã làm trước hoặc đồng đội khi chưa hiểu. 7. Ghi chú lại những gì đã tìm hiểu. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3–4: phải đọc và lần theo nhiều file để hiểu cấu trúc, chức năng và mối liên hệ giữa các phần. Sau một ngày tiếp nhận code vẫn chưa nắm hết; thời gian đọc và tìm kiếm cụ thể cần đo thêm. |
+| Impact (nếu không giải thì sao) | Mất nhiều thời gian làm quen, khó xác định nên bắt đầu từ đâu, dễ bỏ sót thông tin quan trọng hoặc hiểu sai luồng xử lý khi thực hiện công việc. |
+| Success metric (baseline → target) | Thời gian để xác định được cấu trúc và luồng liên quan đến một nhiệm vụ: hiện tại cần đo → mục tiêu giảm. Có thể theo dõi thêm số câu hỏi phải hỏi đồng đội và số lần phải sửa do hiểu sai code. |
+| Phương án không dùng AI | Bổ sung README và tài liệu bàn giao; tạo sơ đồ cấu trúc, hướng dẫn chạy dự án và mô tả các luồng chức năng chính; ghi chú lại những phần đã tìm hiểu. |
+| Giả thuyết về AI (nếu có) | AI có thể hỗ trợ tóm tắt cấu trúc dự án, giải thích các file hoặc luồng code được chọn, và gợi ý những phần cần đọc theo nhiệm vụ. Người tiếp nhận cần kiểm tra lại câu trả lời bằng code và tài liệu thực tế. |
 | Cảm nhận nhanh | Workflow |
 
 Quy trình nháp hiện tại:
 
-```text
+```Nhận code và yêu cầu bàn giao
+→ Đọc tài liệu có sẵn
+→ Tìm cách chạy dự án
+→ Đọc cấu trúc thư mục và file
+→ Lần theo luồng code liên quan
+→ Hỏi đồng đội khi chưa hiểu
+→ Ghi chú lại nội dung đã nắm
 
 ```
 
 ### Card muốn pitch nhất
 
-- Card số: 1
-- Vì sao: Tôi thường mất khoảng 40–60 phút tìm và so sánh địa điểm đi chơi quanh khu vực. Việc tìm trên nhiều ứng dụng khiến tôi mất thời gian và khó chọn nơi phù hợp trong thời gian rảnh.
-- Câu hỏi muốn nhóm phản biện: Bottleneck chính là tìm địa điểm, đọc review hay so sánh quãng đường? Thời gian và tần suất đã được ghi nhận đủ tin cậy chưa? Có thể cải thiện bằng danh sách địa điểm hoặc bộ lọc trên map mà không cần AI không?
+- Card số:1
+- Vì sao: Tôi thường mất khoảng 40 phút đến 1 giờ để tìm và so sánh địa điểm đi chơi quanh khu vực. Việc phải tìm thông tin trên nhiều ứng dụng khiến tôi mất thời gian và khó chọn được nơi phù hợp, trong khi thời gian đi chơi, thư giãn trong tuần có hạn.
+- Câu hỏi muốn nhóm phản biện: Vấn đề nằm chủ yếu ở việc tìm địa điểm, đọc review hay so sánh quãng đường? Các bước và thời gian đã phản ánh đúng trải nghiệm thực tế chưa? Có cách nào cải thiện bằng danh sách địa điểm hoặc bộ lọc trên map mà không cần AI không?
+
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. |
----|---|---|
-| Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. |
 
+| “Bí địa điểm” chưa nêu rõ bối cảnh, còn thiếu nhu cầu như loại địa điểm, ngân sách hoặc thời gian di chuyển. | Đồng ý | Làm rõ các tiêu chí cần tìm, ví dụ loại địa điểm, khoảng cách và thời gian có thể đi. |
+
+| Impact “1 tuần dư 2,3 buổi xả stress, mất 120–180p/tuần” chưa rõ 120–180 phút là thời gian tìm địa điểm hay tổng thời gian bị ảnh hưởng. | Đồng ý | Làm rõ cách tính: nếu mỗi lần tìm mất 40–60 phút và xảy ra 2 lần/tuần thì thời gian tìm là khoảng 80–120 phút/tuần. |
 ---
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
@@ -186,25 +164,6 @@ Quy trình nháp hiện tại:
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
 | CP6 Mức can thiệp / quyết định | | | | |
----|---|---|---|---|
-| CP1 Scan | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
-| CP2 Problem Card | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
-| CP4 Research | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
-| CP5 Quy trình | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
-| CP5–6 Problem Statement | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
-| CP6 Mức can thiệp / quyết định | Actor “con người” và bối cảnh “bí địa điểm” còn chung chung. | Đồng ý | Cụ thể hóa actor là cá nhân tìm địa điểm gần nơi đang ở và nêu bối cảnh là lúc rảnh, cần tìm nơi đi chơi. |
-| Thời lượng ở các bước và success metric cần thống nhất; thời gian di chuyển không nên tính vào thời gian tìm chọn. | Đồng ý | Cộng các bước tìm/chọn 1–5 thành khoảng 74–94 phút theo ước tính đã ghi, đặt mục tiêu dự kiến 20 phút và tách bước di chuyển. |
-| Tác động 120–180 phút/tuần chưa khớp với 40–60 phút mỗi lần nếu xảy ra hai lần/tuần. | Đồng ý | Ghi rõ phép tính sơ bộ là 80–120 phút/tuần và đánh dấu tần suất, thời lượng cần xác nhận thêm. | |
 
 ---
 
