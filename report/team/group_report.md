@@ -78,12 +78,12 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 |   # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 | --: | -------- | -------------------------------------------------- | ---------------: | ---------------------: | ----------------- |
-|   1 |          |                                                    |                  |                        |                   |
-|   2 |          |                                                    |                  |                        |                   |
-|   3 |          |                                                    |                  |                        |                   |
-|   4 |          |                                                    |                  |                        |                   |
-|   5 |          |                                                    |                  |                        |                   |
-|   6 |          |                                                    |                  |                        |                   |
+|   1 |     Ngoài Vinh, nhiều người cũng mất từ 30 phút mỗi lần chọn nơi đi chơi, và gặp việc này ít nhất 1 lần/tuần     |          Value                                          |         5         |             1           |              Có     |
+|   2 |   Công cụ có sẵn (bản đồ, TikTok, chatbot AI) chưa giải đủ bài này       |              Value                                      |      5            |            1            |            Có       |
+|   3 |      Người dùng tin và đi theo danh sách gợi ý ngắn của AI, thay vì tự đọc review    |          Usability                                          |         4         |               1         |          Sau         |
+|   4 |      Có đủ dữ liệu đúng và còn mới (giờ mở cửa, giá, review, khoảng cách) để gợi ý không dẫn người dùng đi uổng công    |            Feasibility                                        |     4             |       2                 |              Sau     |
+|   5 |      Chi phí và quyền dùng dữ liệu (vị trí người dùng, nội dung bản đồ/TikTok) không chặn bản pilot    |              Viability                                      |         3         |               1         |          Sau         |
+
 
 _Điền 4–6 giả định; xóa dòng thừa._
 
@@ -95,20 +95,32 @@ Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
 
 Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
 
+Buổi 1:
 | Trường                                            | Nội dung |
 | ------------------------------------------------- | -------- |
-| Người được hỏi (vai trò, không ghi tên thật)      |          |
-| Câu nói đáng nhớ nhất (nguyên văn)                |          |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? |          |
-| Hiện đang xử lý bằng cách nào (workaround)?       |          |
-| Mất bao lâu, bao lần?                             |          |
-| Insight / opportunity rút ra                      |          |
+| Người được hỏi (vai trò, không ghi tên thật)      |   Nam sinh viên năm 3, người thường xuyên phải "lên kèo" và tìm địa điểm cho nhóm bạn thân.       |
+| Câu nói đáng nhớ nhất (nguyên văn)                |    "Trên Google Maps có cả ngàn quán, nhưng map không cho mình biết quán nào hiện tại đang còn chỗ trống, hay không gian có đủ yên tĩnh để nhóm 5 người ngồi nói chuyện không."      |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? |    Tối thứ 7 tuần trước hẹn nhóm đi cafe. Quán đầu tiên đến nơi thì hết bàn, quán thứ hai thì nhạc quá to không nói chuyện được. Phải chạy xe lòng vòng tìm quán rảnh mất gần 45 phút mới có chỗ ngồi.      |
+| Hiện đang xử lý bằng cách nào (workaround)?       |     Lên Google Maps tìm quán có rating cao, sau đó copy tên quán lên TikTok hoặc Instagram để xem video quay không gian thực tế, rồi lên Facebook nhắn tin cho fanpage quán hỏi xem giờ này còn bàn cho 5 người không.     |
+| Mất bao lâu, bao lần?                             |     Tốn khoảng 40–60 phút cho mỗi lần đi chơi. Tuần nào cũng gặp (1-2 lần/tuần).     |
+| Insight / opportunity rút ra                      |    Insight: Người dùng thiếu thông tin thực tế và cập nhật về tình trạng của địa điểm mà Maps không cung cấp được. Opportunity: Tích hợp tính năng cập nhật tình trạng quán theo thời gian thực hoặc video review không gian thực tế ngắn.      |
+
+Buổi 2:
+| Trường                                            | Nội dung |
+| ------------------------------------------------- | -------- |
+| Người được hỏi (vai trò, không ghi tên thật)      |    Nữ nhân viên văn phòng 25 tuổi, thích tìm các không gian có đặc thù để thư giãn cuối tuần.      |
+| Câu nói đáng nhớ nhất (nguyên văn)                |  Đánh giá 4.5 sao trên mạng nhiều khi là do quán tặng nước để khách review. Nhìn ảnh chụp góc nào cũng đẹp, đến nơi thì ngột ngạt không hợp gu mình chút nào.        |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? |     Muốn tìm một quán cafe yên tĩnh để đọc sách tối thứ 6. Lọc trên app thấy một quán ghi là "yên tĩnh, chill", nhưng đến nơi thì hôm đó quán lại tổ chức sự kiện nhạc hát hò rất ồn, đành phải bỏ về.     |
+| Hiện đang xử lý bằng cách nào (workaround)?       |     Phải đọc thật kĩ từng bình luận 1 sao, 2 sao trên Google Maps. Sau đó vào các hội nhóm review ẩm thực/cafe trên Facebook đọc comment dạo để xem quán có bị "seeding" hay không rồi mới dám chốt.     |
+| Mất bao lâu, bao lần?                             |     Tốn cả tiếng đồng hồ để sàng lọc thông tin giả/thật trước mỗi buổi hẹn quan trọng.
+     |
+| Insight / opportunity rút ra                      |    Insight: Có sự khủng hoảng niềm tin vào hệ thống rating/review tĩnh. Hình ảnh chỉnh sửa và filter "loại hình" trên app không đủ để diễn tả chính xác hoặc sự kiện đang diễn ra trong ngày của quán. Opportunity: Hệ thống đánh giá dựa trên các tag cảm xúc được update linh hoạt theo khung giờ/ngày, kết hợp xác thực review chống seeding.      |
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 | ----- | ----------------: | ----------------- | ----------------- |
-|       |                   |                   |                   |
+|   Phỏng vấn sâu (1-1)    |          02 người (1 nam SV, 1 nữ NVVP)         |        Người dùng thực sự mất 40–60 phút để ra quyết định chọn địa điểm.  Các tính năng filter, rating của Google Maps hiện tại không đủ để họ chốt địa điểm.            |           Vấn đề không nằm ở việc "thiếu bộ lọc", mà nằm ở việc "thiếu thông tin thực tế/real-time". Người dùng không lười tìm kiếm, họ sẵn sàng tốn công đổi qua lại 3-4 app (Maps, TikTok, Facebook) chỉ để xác thực xem quán có hợp vibe không và có chỗ không.        |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
 
@@ -116,9 +128,8 @@ Tổng hợp:
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 | ------------------------ | ---- | ------------------------------ | --------- | --------------------- | ---------------- |
-|                          |      |                                |           |                       |                  |
-|                          |      |                                |           |                       |                  |
-|                          |      |                                |           |                       |                  |
+|          Google Maps                |   google.com/maps   |         Khám phá (Discovery) - Tìm kiếm các địa điểm xung quanh, xem khoảng cách và thông tin cơ bản.                       |     Cơ sở dữ liệu địa điểm khổng lồ, chỉ đường chính xác, phân loại cơ bản (nhà hàng, cafe) rõ ràng.      |      Thiếu thông tin cập nhật theo thời gian thực (hiện tại có đông không, còn bàn không). Review và ảnh tĩnh dễ bị "làm đẹp" (seeding).|          Tận dụng tốt bản đồ vị trí là cần thiết, nhưng phải có thêm "lớp" dữ liệu thời gian thực (real-time data) để tạo sự khác biệt.        |
+|       TikTok / Facebook Reels                   |  tiktok.com / facebook.com    |          Chốt hạ (Decision) - Nhắn tin trực tiếp cho quán để hỏi xem giờ này còn đủ bàn cho nhóm người không.                      |     Lấy được thông tin chính xác nhất về tình trạng chỗ ngồi ngay lúc đó.      |          Mất thời gian chờ đợi phản hồi từ admin. Quá trình thủ công, phải lặp lại với từng quán nếu quán trước đó báo hết bàn.             |      Cần một cơ chế hiển thị trạng thái "Độ đông đúc / Tình trạng bàn" (Capacity status) tự động hoặc do người dùng đang ở đó báo cáo (crowd-sourced) để giảm ma sát.            |
 
 ---
 
