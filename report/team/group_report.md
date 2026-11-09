@@ -20,16 +20,14 @@
 |---:|---|---|---|---|---|
 | 1 | Phạm Hoàng Đức Minh | Khi nhận được yêu cầu mượn sách từ sinh viên, tôi muốn biết ngay trạng thái và vị trí của sách, để phản hồi nhanh chóng mà không mất công tra cứu thủ công. | Thủ thư tại thư viện, sinh viên | Mỗi ngày có khoảng 20–30 lượt nhờ tìm hộ, mất 3–5 phút/yêu cầu tra cứu tay và đi kiểm tra kệ. | Hệ thống hay phần mềm quản lý thư viện hiện tại đã có thông tin về trạng thái và vị trí sách chưa? Nếu đã có, tại sao thủ thư vẫn phải tra cứu thủ công? Liệu cải thiện cách tìm kiếm và hiển thị thông tin có đủ giải quyết vấn đề mà không cần AI? |
 | 2 | Tào Quang Vinh | Tìm địa điểm đi chơi phù hợp ở khu vực lân cận | Cá nhân | Mất khoảng 40–60 phút tìm và so sánh thông tin trên nhiều ứng dụng. | Các ứng dụng hiện tại như Google Maps đã hỗ trợ tìm kiếm và lọc địa điểm theo vị trí, đánh giá và loại hình. Vậy những tính năng này còn thiếu điều gì khiến bạn phải mất 40–60 phút để đưa ra quyết định? |
-| 3 | Nguyễn Cao Minh | Khi tìm được một job opening phù hợp với tôi, tôi muốn tailor CV nhanh (dưới 25 phút), để có thể apply được nhiều vị trí hơn | Cá nhân | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 3 | Nguyễn Cao Minh | Khi tìm được một job opening phù hợp với tôi, tôi muốn tailor CV nhanh (dưới 25 phút), để có thể apply được nhiều vị trí hơn | Cá nhân |Mỗi tuần apply 10–15 role, mỗi role sửa CV mất khoảng 30–60 phút | Bạn đã thử dùng AI hoặc một template CV cố định để rút ngắn thời gian chỉnh sửa chưa? Nếu có, bước nào vẫn khiến bạn mất 30–60 phút cho mỗi vị trí ứng tuyển?|
+| 4 | Tào Quang Vinh | Khi cần xác minh lưu trú, công an muốn có thông tin về nơi lưu trú có đúng khai báo hay không hay hiện tại nơi lưu trú đang như nào để kiểm soát khu vực hợp lí | Công an | Gọi xác minh không nghe máy, đến tận nơi nhưng không có nhà | Có thể dùng dữ liệu đăng ký lưu trú và quy trình hẹn xác minh trước khi cần đến tận nơi không? |
+| 5 | Tào Quang Vinh | Khi cần tìm hiểu nội dung mới, tôi muốn tổng hợp thông tin cần để nắm rõ hiện tại cần tìm hiểu gì cho đúng, hợp lí | Cá nhân | Tiếp nhận code 1 ngày nhưng chưa nắm hết  | Các coding agent hiện tại có thể phân tích codebase tốt và giải thích luồng trong code, vậy cần thêm tính năng gì? |
+| 6 | Nguyễn Cao Minh | Khi hướng dẫn học sinh giải past paper môn Math và Computer Science, tôi muốn tìm nhanh đáp án và marking criteria của từng câu hỏi, để giải thích và chấm bài ngay mà không phải mở mark scheme riêng rồi tìm đúng câu | Cá nhân, học sinh được tutor | Mỗi buổi dạy 1.5–2 giờ, thường phải chuyển giữa question paper và mark scheme nhiều lần, mỗi lần tìm đáp án khoảng 20-40s | Có thể dùng PDF có bookmark hoặc dùng website hỗ trợ đặt question paper và mark scheme cạnh nhau để giảm thời gian mà không cần AI không? |
+| 7 | Nguyễn Cao Minh | Khi tìm các job opening, tôi muốn nhanh chóng xác định những vị trí phù hợp với CV, kỹ năng và kinh nghiệm của mình, để không mất nhiều giờ tìm và đọc job description trên các website mỗi tuần | Cá nhân apply việc | Mỗi tuần tìm khoảng 10–15 vị trí để ứng tuyển, phải đọc và so sánh JD từ nhiều nguồn (3-4h mỗi tuần) | Trong 3–4 giờ mỗi tuần, bạn mất nhiều thời gian nhất để tìm tin mới, lọc yêu cầu kinh nghiệm hay đánh giá mức độ phù hợp với CV? Các job board tổng hợp chưa đáp ứng được nhu cầu gì? |
+| 8 | Phạm Hoàng Đức Minh | Khi nhập một lô sách mới về thư viện, tôi muốn trích xuất tự động thông tin (tên, tác giả, NXB, năm XB) từ mã ISBN hoặc ảnh bìa, để gõ dữ liệu vào hệ thống nhanh và không sai sót. | Thủ thư tại thư viện | Mất 5-7 phút gõ tay cho 1 cuốn sách. Một đợt nhập 100 cuốn sách tốn trọn 1 ngày làm việc, thỉnh thoảng gõ sai chính tả. | Phần mềm thư viện hiện tại có hỗ trợ tra cứu thông tin theo ISBN hoặc nhập dữ liệu hàng loạt chưa? Nếu có, bước nào vẫn buộc thủ thư nhập tay và có cần AI để giải quyết không? |
+| 9 | Phạm Hoàng Đức Minh | Khi sinh viên nhờ tư vấn tài liệu tham khảo cho một chủ đề tiểu luận, tôi muốn quét nhanh toàn bộ mục lục và tóm tắt của các sách hiện có, để gợi ý đúng sách đang nằm trên kệ. | Thủ thư tư vấn, Sinh viên | 5-7 lượt sinh viên hỏi mỗi ngày. Mỗi lượt mất 10-15 phút lục tìm trí nhớ hoặc gõ keyword thử sai trên phần mềm cũ. | Trong 10–15 phút tư vấn mỗi lượt, bước nào thực sự tốn thời gian nhất: tìm sách liên quan đến chủ đề, đánh giá mức độ phù hợp của nội dung hay kiểm tra sách còn trên kệ? |
+
 
 ### 2.2. Cluster
 
