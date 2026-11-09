@@ -139,25 +139,64 @@ Tổng hợp:
 
 Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
-```text
+
+```HIỆN TẠI — 6 bước, 90 phút, 6/6 bước thủ công
+[1 mở map 2'] → [2 mở tiktok,ig: 5'] → [3 tìm thông tin quanh khu vực: 40']← BOTTLENECK
+→ [4 xem review: 20'] → [5 xem quãng đường: 10'] → [6 đến địa điểm: 5-20']
+
+
+TƯƠNG LAI — 4 bước, mục tiêu dự kiến khoảng 25 phút, 2/4 bước chủ yếu do người dùng thực hiện
+
+[1 Nhập khu vực, loại địa điểm và tiêu chí phù hợp đối tượng vào công cụ tìm kiếm: 5']
+→ [2 Lọc và tạo danh sách địa điểm phù hợp: 5'] ← RULE / WORKFLOW
+→ [3 Check review và lựa chọn: 10'] ← CON NGƯỜI
+→ [4 So sánh quãng đường và chọn địa điểm: 3'] ← CON NGƯỜI
+
+BOUNDARY: Công cụ chỉ gợi ý dựa trên tiêu chí đã nhập và thông tin có nguồn để kiểm tra. Không coi điểm đánh giá hoặc review là bảo đảm địa điểm phù hợp, còn mở cửa hay còn chính xác; người dùng tự kiểm tra thông tin quan trọng trước khi chọn.
+
+PHƯƠNG ÁN QUAY VỀ: Nếu danh sách gợi ý không phù hợp hoặc thông tin thiếu/sai, quay lại tìm trên map, đọc review và tự so sánh như quy trình hiện tại.
 
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 | ---: | ----- | ----- | ------ | -------------------- | ------- |
-|    1 |       |       |        |                      |         |
-|    2 |       |       |        |                      |         |
-|    3 |       |       |        |                      |         |
-|    4 |       |       |        |                      |         |
-|    5 |       |       |        |                      |         |
+| 1 | cá nhân | Muốn đi chơi nhưng chưa chọn được nơi | Mở map và xác định khu vực cần tìm | Khoảng 2 phút/lần tìm | Bắt đầu khi bí địa điểm |
+| 2 | cá nhân | Khu vực muốn tìm | Mở TikTok và tìm địa điểm quanh khu vực | Khoảng 2 phút mở ứng dụng; 40–60 phút tìm thông tin | Bước tốn thời gian nhất |
+| 3 | cá nhân | Các địa điểm tìm được | Xem và so sánh review | Khoảng 20 phút | Cần xác minh có trùng với thời gian tìm ở bước 2 không |
+| 4 | cá nhân | Địa điểm đang cân nhắc | Kiểm tra quãng đường trên map | Khoảng 10 phút | Dùng để cân nhắc mức độ thuận tiện |
+| 5 | cá nhân | Địa điểm đã chọn | Đến địa điểm | Khoảng 5–20 phút di chuyển | Không tính vào thời gian tìm và chọn |
 
 **Bottleneck chính:**
+ 2 | cá nhân | Khu vực muốn tìm | Mở TikTok và tìm địa điểm quanh khu vực | Khoảng 2 phút mở ứng dụng; 40–60 phút tìm thông tin | Bước tốn thời gian nhất |
 
 ### 4.2. Quy trình tương lai
 
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
 
-```text
+```
+[1. Người dùng nhập khu vực, loại địa điểm, ngân sách và tiêu chí]
+→ CON NGƯỜI cung cấp nhu cầu
+
+[2. Lọc địa điểm theo khoảng cách, loại hình, ngân sách hoặc tiêu chí rõ ràng]
+→ RULE áp dụng bộ lọc; hiển thị danh sách địa điểm
+
+[3. Tóm tắt review của các địa điểm trong danh sách, nêu điểm khen/chê và nguồn]
+→ AI trao đổi, hỗ trợ tổng hợp thông tin để người dùng dễ so sánh
+
+[4. Người dùng mở nguồn, kiểm tra review, giá và thông tin cần thiết]
+→ CON NGƯỜI xác minh thông tin và đánh giá mức độ phù hợp
+
+[5. Người dùng so sánh quãng đường và chọn địa điểm]
+→ RULE hiển thị khoảng cách/thời gian di chuyển; CON NGƯỜI quyết định
+
+BOUNDARY:
+AI chỉ tóm tắt thông tin review có nguồn để đối chiếu. AI không tự tạo review,
+không đảm bảo thông tin còn mới, không quyết định thay người dùng và không tự
+đặt chỗ hoặc thực hiện hành động bên ngoài ứng dụng.
+
+PHƯƠNG ÁN QUAY VỀ:
+Nếu AI tóm tắt thiếu nguồn, sai hoặc không phù hợp, người dùng bỏ phần tóm tắt,
+mở review gốc và tự tìm/lọc địa điểm trên map như quy trình hiện tại.
 
 ```
 
@@ -165,26 +204,29 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Chỉ số               | Trước | Sau (kỳ vọng) | Ghi chú |
 | -------------------- | ----: | ------------: | ------- |
-| Số bước              |       |               |         |
-| Tổng thời gian       |       |               |         |
-| Số bước thủ công     |       |               |         |
-| Bottleneck chính     |       |               |         |
-| Rủi ro mới phát sinh |       |               |         |
+| Số bước              |     6  |       4        |         |
+| Tổng thời gian       |   90p    |      25p         |   target chính : dưới 30p      |
+| Số bước thủ công     |    6/6   |        2/4       |    cá nhân vẫn chốt     |
+| Bottleneck chính     |    tìm kiếm   |   cá nhân chốt        |    ai tổng hợp     |
+| Rủi ro mới phát sinh |       |       ai đưa thiếu,         |    cá nhân check bài share gốc     |
 
 ---
 
 ## 5. Problem Statement v0 (CP5)
 
-| Trường                                                                     | Nội dung |
-| -------------------------------------------------------------------------- | -------- |
-| **Actor**                                                                  |          |
-| **Quy trình**                                                              |          |
-| **Bottleneck**                                                             |          |
-| **Impact**                                                                 |          |
-| **Success Metric** (baseline → target, cách đo)                            |          |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) |          |
+| Trường | Nội dung |
+|---|---|
+| **Actor** | Cá nhân muốn tìm địa điểm đi chơi, học tập khu vực cần tìm |
+| **Quy trình** | Xác định khu vực và nhu cầu → tìm địa điểm trên map/TikTok → đọc, so sánh review → kiểm tra quãng đường → chọn địa điểm |
+| **Bottleneck** | Mất khoảng 40–60 phút tìm thông tin quanh khu vực và khó chọn giữa các địa điểm; cần xác minh xem thời gian này có bao gồm việc đọc review không |
+| **Impact** | Thời gian rảnh bị giảm do phải tìm kiếm và so sánh trên nhiều ứng dụng. Nếu việc này xảy ra hai lần mỗi tuần, riêng bước tìm thông tin có thể chiếm khoảng 80–120 phút/tuần; tần suất cần xác nhận |
+| **Success Metric** (baseline → target, cách đo) | Thời gian từ lúc bắt đầu tìm đến khi chọn được địa điểm: baseline ước tính 74–94 phút → mục tiêu thử nghiệm 20 phút. Đo thời gian cho mỗi lần tìm; không tính thời gian di chuyển |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | AI chỉ hỗ trợ gợi ý địa điểm và tóm tắt review có nguồn. Không tự bịa hoặc khẳng định review, giá hay giờ mở cửa chính xác; không quyết định thay người dùng. Người dùng kiểm tra chi tiết và tự chọn. Nếu thông tin thiếu, sai hoặc không phù hợp, bỏ gợi ý và tìm lại |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
+"so với gemini thì cái này có gì hơn, gemini vẫn ok mà?"- gemini có thể làm, nhưng nó không tối ưu. gemini rộng hơn so với việc thu hẹp lại 1 vấn đề và giải quyết tốt vấn đề đó. đó là lí do vì sao xây dựng 1 mục đích riêng.
+
+
 
 - ***
 
