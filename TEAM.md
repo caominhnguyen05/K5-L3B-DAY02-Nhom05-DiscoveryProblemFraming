@@ -58,3 +58,26 @@ Tào Quang Vinh-2A202604081
 **Điều mình học được từ phần nhóm:**
 
 -nhiều góc nhìn rộng hơn
+
+### PhamHoangDucMinh-2A202604114
+
+**Phần việc phụ trách:**
+
+- làm CP4 (Assumption Map, kiểm chứng, research giải pháp đã có)
+- đóng góp ý kiến CP3, CP5, CP6
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Mục 3.1: lập Assumption Map gồm 5 giả định (Value, Usability, Feasibility, Viability), chấm mức quan trọng và mức bằng chứng; chọn kiểm chứng trước 2 giả định Value có quan trọng 5 nhưng bằng chứng mới 1 (giả định #1 và #2).
+- Mục 3.2: ghi 2 Interview Snapshot (1 sinh viên nam, 1 nhân viên văn phòng nữ) và bảng Tổng hợp. Tín hiệu xác nhận: mất 40–60 phút mỗi lần chọn địa điểm. Tín hiệu phản bác: vấn đề nằm ở thiếu thông tin thực tế/real-time chứ không phải thiếu bộ lọc.
+- Mục 3.3: research Google Maps và TikTok/Facebook Reels, chỉ ra khoảng trống (thiếu dữ liệu thời gian thực) và bài học cho nhóm.
+- Mục 2.1: pitch candidate #1 (thủ thư tra cứu trạng thái và vị trí sách) và nhận câu hỏi phản biện.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `report/team/group_report.md`: mục 2.1 (hàng 1), mục 3.1, 3.2, 3.3.
+- Commit `fd11c6a` ("CP04 - Group_Report", 09/11 20:58) cập nhật Assumption Map, Interview Snapshot và bảng research.
+
+**Điều mình học được từ phần nhóm:**
+
+- [ĐIỀN: 1–2 câu bằng ý của riêng bạn]
