@@ -1,8 +1,5 @@
 # Báo cáo nhóm — Day 02 Discovery & Problem Framing
 
-> Bản chung của nhóm, viết trên repo do nhóm trưởng fork. Không copy file này sang repo cá nhân.
-> Template chi tiết và prompt mẫu: [docs/01-worksheet.md](../../docs/01-worksheet.md). Bài mẫu: [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md).
-
 ## 1. Thông tin nhóm
 
 - Tên nhóm: 05
@@ -241,7 +238,6 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ## 6. Mức can thiệp AI (CP6)
 
-6. Mức can thiệp AI (CP6)
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
