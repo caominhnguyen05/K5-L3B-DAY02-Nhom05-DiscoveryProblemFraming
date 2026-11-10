@@ -50,7 +50,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Success metric (baseline → target) | **30–60 phút → dưới 25 phút/CV**; đo từ lúc mở JD đến khi có CV được kiểm tra và sẵn sàng gửi, ít nhất 5 JD; giữ thông tin trung thực và không tăng lỗi so với CV sửa tay. |
 | Phương án không dùng AI | Duy trì master CV và thư viện bullet đã kiểm chứng, tạo 2–3 phiên bản CV theo nhóm vai trò, dùng checklist keyword và template định dạng. |
 | Giả thuyết về AI (nếu có) | AI so sánh JD với master CV, đề xuất sửa các bullet points hoặc summary liên quan, nêu các keyword từ JD nên thêm vào CV hoặc bỏ project/skill không liên quan; tôi kiểm tra và chỉnh sửa trước khi nộp. |
-| Cảm nhận nhanh | **Workflow** (bước cố định + AI hỗ trợ viết nháp + con người duyệt). |
+| Cảm nhận nhanh | Workflow (bước cố định + AI hỗ trợ viết nháp + con người duyệt). |
 
 Quy trình nháp hiện tại:
 
@@ -110,7 +110,7 @@ Quy trình nháp hiện tại:
 
 - **Card số:** **#1 — Tailor CV theo JD**.
 - **Vì sao:** Đây là vấn đề trực tiếp, lặp lại thường xuyên và đã có baseline 30–60 phút/role; với 10–15 role/tuần, thời gian tích lũy đáng kể. Có thể thử các phương án từ master CV + checklist đến workflow AI có người duyệt, đồng thời đo cả thời gian và tính chính xác của CV.
-- **Câu hỏi muốn nhóm phản biện:** Nếu đã có master CV, template và các công cụ AI hỗ trợ viết CV, **bước nào vẫn khiến tôi mất 30–60 phút/role**, và liệu workflow mới có tạo ra CV tốt hơn việc dùng template sẵn có mà không tự thêm kinh nghiệm không có thật?
+- **Câu hỏi muốn nhóm phản biện:** Nếu đã có master CV, template và các công cụ AI hỗ trợ viết CV, bước nào vẫn khiến tôi mất 30–60 phút/role, và liệu workflow mới có tạo ra CV tốt hơn việc dùng template sẵn có mà không tự thêm kinh nghiệm không có thật?
 
 ### AI đã phản biện card thế nào
 
@@ -146,21 +146,14 @@ Quy trình nháp hiện tại:
 | CP1 Scan | Nhờ AI gợi ý thêm problem dựa trên các hoạt động ứng tuyển, tutor và học Master's. | Mở rộng danh sách bằng các vấn đề đối chiếu yêu cầu Master's và chấm past paper. | Dễ đề xuất vấn đề quá rộng, hoặc tự đặt số đo chưa được kiểm chứng. | Giữ những problem có actor/quy trình thật và có thể dễ dàng đo thời gian; dùng thời gian do tôi tự cung cấp. |
 | CP2 Problem Card | Nhờ AI tổ chức Job Story, workflow, bottleneck và metric cho top 3. | Chuyển mô tả chung thành card có thể pitch và thử nghiệm. | Có thể tự suy đoán bước tốn thời gian nhất trong khi chỉ biết tổng thời gian. | Đánh dấu bottleneck là giả định, nêu nhu cầu bấm giờ từng bước; thêm phương án không AI. |
 | CP4 Research | Dùng AI hỗ trợ phân tích câu hỏi phản biện, nhu cầu và khoảng trống của công cụ sẵn có trong báo cáo nhóm. | Gợi ý kiểm tra bộ lọc Google Maps và vấn đề review/độ cập nhật. | Dễ mặc định thiếu tính năng là cần xây ứng dụng, hoặc đề xuất real-time khi chưa có dữ liệu. | Không khẳng định có dữ liệu real-time, giữ rõ ranh giới pilot chỉ dùng nguồn kiểm chứng được. |
-
 | CP5 Quy trình | Nhờ AI hỗ trợ format bảng Markdown và vẽ sơ đồ các bước trong quy trình hiện tại và tương lai. | Giúp trình bày bảng và sơ đồ rõ ràng, dễ theo dõi, tiết kiệm thời gian chỉnh sửa thủ công. | AI đôi khi gộp các bước khác nhau hoặc phân chia thời gian chưa hợp lý, khiến bottleneck chưa được thể hiện rõ. | Tôi kiểm tra và chỉnh sửa lại các bước, thời gian thực hiện và bottleneck để đảm bảo đúng với quy trình thực tế của nhóm. |
-
-
 | CP5–6 Problem Statement | Nhờ AI hỗ trợ viết Problem Statement từ các bottleneck đã xác định: thông tin địa điểm phân tán trên nhiều ứng dụng, mất thời gian đọc review và so sánh lựa chọn. | Giúp tổng hợp các pain point thành Problem Statement rõ ràng, xác định actor, impact và success metric. | Ban đầu AI mô tả vấn đề khá rộng, tập trung vào việc tìm địa điểm nhanh mà chưa làm rõ khó khăn khi phải tổng hợp thông tin từ nhiều nguồn. | Tôi chỉnh sửa Problem Statement để nhấn mạnh vấn đề thông tin phân tán, khó đối chiếu review và đánh giá mức độ phù hợp; đồng thời bổ sung baseline và target có thể đo lường. |
-
-
 | CP6 Mức can thiệp / quyết định | Nhờ AI đánh giá mức độ cần thiết của AI Agent và đề xuất phương án phù hợp giữa No AI, Rule, Workflow và Agent. | Giúp nhận ra không cần xây dựng AI Agent phức tạp, chỉ cần Workflow kết hợp Rule để lọc địa điểm và AI để tóm tắt review. | AI có xu hướng đề xuất ứng dụng quá rộng với nhiều tính năng như tự tìm kiếm, lên lịch trình và đặt chỗ, khó triển khai trong thời gian ngắn. | Tôi thu hẹp phạm vi giải pháp, chọn Workflow với AI hỗ trợ một số bước cụ thể, giữ người dùng kiểm tra và quyết định cuối cùng. |
 
 
 ---
 
 ## 6. Reflection (CP7)
-
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
@@ -191,5 +184,3 @@ Nhóm tôi chọn vấn đề người dùng mất khoảng 40–60 phút để 
 ---
 
 ## 7. Tài liệu tham khảo
-
--
