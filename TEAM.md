@@ -12,12 +12,9 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Nguyễn Cao Minh | 2A202604099 | Trưởng nhóm| https://github.com/caominhnguyen05 |
-| 2 | Phạm Hoàng Đức Minh | 2A202604114 | đóng góp việc| https://github.com/PH31M|
-| 3 |Tào Quang Vinh |2A202604081 |đóng góp việc |https://github.com/qvinhh2312 |
+| 2 | Phạm Hoàng Đức Minh | 2A202604114 | Đóng góp việc| https://github.com/PH31M|
+| 3 |Tào Quang Vinh |2A202604081 | Đóng góp việc |https://github.com/qvinhh2312 |
 
-Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
-
-Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối thời gian, ghi chép, người phản biện chính, phụ trách kiểm chứng (phỏng vấn/survey), phụ trách research, vẽ quy trình, viết Problem Statement.
 
 ## Phân công theo checkpoint
 
@@ -33,7 +30,6 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 ## Cá nhân
 
-Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
 ### Tào Quang Vinh-2A202604081
 **Phần việc phụ trách:**
