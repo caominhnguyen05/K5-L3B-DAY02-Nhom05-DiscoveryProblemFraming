@@ -11,8 +11,8 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Nguyễn Cao Minh | 2A202604099 | | https://github.com/caominhnguyen05 |
-| 2 | Phạm Hoàng Đức Minh | 2A202604114 | | https://github.com/PH31M|
+| 1 | Nguyễn Cao Minh | 2A202604099 | Trưởng nhóm| https://github.com/caominhnguyen05 |
+| 2 | Phạm Hoàng Đức Minh | 2A202604114 | đóng góp việc| https://github.com/PH31M|
 | 3 |Tào Quang Vinh |2A202604081 |đóng góp việc |https://github.com/qvinhh2312 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
@@ -60,8 +60,8 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
-- làm CP4 (Assumption Map, kiểm chứng, research giải pháp đã có)
-- đóng góp ý kiến CP3, CP5, CP6
+- làm CP4 
+- đóng góp ý kiến 
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
@@ -77,7 +77,8 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Điều mình học được từ phần nhóm:**
 
-- [ĐIỀN: 1–2 câu bằng ý của riêng bạn]
+-Tư duy "Problem-First": Tập trung giải quyết điểm nghẽn của người dùng thay vì vội vàng "chốt" giải pháp.
+-Không phải vấn đề nào cũng cần AI Agent; đôi khi chỉ cần kết hợp Rule, Workflow và con người kiểm tra là đủ để giải quyết vấn đề hiệu quả.
 
 
 ### NguyenCaoMinh-2A202604099
