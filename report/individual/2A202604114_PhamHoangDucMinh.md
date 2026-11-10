@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — MSSV_HoTen
+# Báo cáo cá nhân — 2A202604114_PhamHoangDucMinh
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -109,15 +109,16 @@ Setup hệ thống Automation: 8:00 AM hàng ngày -> Tự động query Databas
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: #1
+- Vì sao: Đây là công việc có tần suất lặp lại rất cao mỗi ngày (20–30 lượt nhờ tìm hộ). Việc tra cứu thủ công bằng cách gõ tay, nhớ vị trí và đi bộ ra kiểm tra kệ gây mất thời gian (3–5 phút/lượt) và tạo ra sự ùn ứ tại quầy. Nó là một "pain point" rất rõ ràng, tốn thời gian và ảnh hưởng trực tiếp đến cả 2 đối tượng (actor) là thủ thư và sinh viên.
+- Câu hỏi muốn nhóm phản biện: Liệu vấn đề này có thực sự "đáng" để dùng đến AI (như GenAI/Agent) không? Hay thực chất chỉ cần tối ưu hóa lại giao diện tìm kiếm (UI/UX) và tính năng lọc (Filter/Elasticsearch) của hệ thống phần mềm thư viện hiện tại là đã giải quyết được 80% vấn đề rồi?
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| Về mức độ cần thiết của AI (Overkill): Việc truy xuất trạng thái (còn/hết) và vị trí sách là thao tác truy vấn dữ liệu có cấu trúc (structured data). Dùng AI tạo sinh (GenAI) cho việc này là "dao mổ trâu giết gà", không khai thác được thế mạnh cốt lõi của AI.|Đồng ý | Hạ mức độ ưu tiên của giải pháp AI: Tôi nhận ra vấn đề này thiên về Rule-based/Workflow truyền thống. Tôi ghi chú thêm vào card: "Cân nhắc phương án không dùng AI (tối ưu UI/Search bar) trước khi nghĩ đến AI".
+
 
 ---
 
@@ -127,7 +128,7 @@ Setup hệ thống Automation: 8:00 AM hàng ngày -> Tự động query Databas
 |---|---|---|
 | Pitch Problem Card | Pitch candidate #1 (thủ thư tra cứu trạng thái và vị trí sách) ở mục 2.1 báo cáo nhóm: actor là thủ thư và sinh viên, bottleneck là 20–30 lượt nhờ tìm hộ mỗi ngày, mỗi lượt 3–5 phút. | Candidate nằm ở hàng 1 của bảng pitch. Nhóm chọn bài của Vinh (tìm địa điểm đi chơi) thay vì bài của tôi. Tôi hoàn toàn đồng ý với lựa chọn này. Vì bài toán tìm địa điểm của Vinh sát với nhu cầu thực tế của mọi thành viên, dễ dàng tìm đối tượng phỏng vấn ngay lập tức. Đồng thời, "đất" để ứng dụng AI (phân tích review, tổng hợp vibe) rõ nét và tiềm năng hơn hệ thống quản lý nội bộ của thư viện. |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt (cho bài của Vinh): "Việc người dùng tốn 40-60 phút lướt tìm quán có thực sự là 'nỗi đau' (pain point) không, hay đó vốn dĩ là sở thích lướt mạng xem ảnh đẹp của họ? Làm sao phân biệt được?"  | Giúp nhóm nhận ra cần thu hẹp đối tượng (actor). Nhóm quyết định tập trung vào những người "cần chốt địa điểm cho nhóm đông người hoặc có mục đích rõ ràng (hẹn hò, làm việc)" thay vì những người chỉ tìm kiếm vô định để giải trí.|
-| Nhận phản biện | Câu hỏi tôi nhận được: hệ thống quản lý thư viện hiện tại đã có thông tin trạng thái và vị trí sách chưa; nếu đã có thì vì sao thủ thư vẫn tra tay; cải thiện tìm kiếm và hiển thị có đủ giải quyết mà không cần AI không (ghi ở mục 2.1). | Tôi đã sửa gì: [ĐIỀN: sau câu hỏi này tôi đổi hoặc giữ gì trong candidate của mình, và vì sao] |
+| Nhận phản biện | Câu hỏi tôi nhận được: hệ thống quản lý thư viện hiện tại đã có thông tin trạng thái và vị trí sách chưa; nếu đã có thì vì sao thủ thư vẫn tra tay; cải thiện tìm kiếm và hiển thị có đủ giải quyết mà không cần AI không (ghi ở mục 2.1). | Tôi quyết định đổi/hạ mức độ ưu tiên của candidate này xuống (không chọn làm ý tưởng trọng tâm để pitch tiếp). |
 | Gom cluster / cây OST | Tham gia cùng nhóm phân loại các ý tưởng và pain point trong đề tài "Tìm địa điểm" của Vinh. Tôi đề xuất chia làm 2 cụm: "Thiếu thông tin tĩnh" (địa chỉ, giá cả) và "Thiếu thông tin động" (độ đông đúc, vibe, review thật).| Giúp nhóm hình thành cây OST (Opportunity Solution Tree) rõ ràng. Xác định được Opportunity lớn nhất nằm ở cụm "Thiếu thông tin động và niềm tin vào review", bỏ qua mảng "thông tin tĩnh" vì Google Maps đã làm quá tốt.|
 | Chọn candidate problem |Cùng nhóm thảo luận và biểu quyết chọn nhánh rễ sâu nhất: "Sự khủng hoảng niềm tin vào review ảo và hình ảnh chỉnh sửa quá đà trên các nền tảng mạng xã hội". | Chốt được hướng đi lõi cho CP4, giúp cả nhóm đồng nhất tư tưởng không tập trung làm "một cái Google Maps thứ 2" mà làm "công cụ xác thực sự thật"|
 | Kiểm chứng / research | Điền Assumption Map (mục 3.1, 5 giả định) và Interview Snapshot (mục 3.2) trong báo cáo nhóm; commit "CP04 - Group_Report" ngày 09/11. Kiểm chứng: Tôi phụ trách phỏng vấn sâu (1-1) trực tiếp 01 bạn nam (sinh viên năm 3, hay làm leader đi chơi) và gửi khảo sát nhanh qua tin nhắn cho 1 nhóm bạn. |Kết quả kiểm chứng làm nhóm sửa problem: Nhóm nhận ra người dùng không hề thiếu công cụ, họ sẵn sàng nhảy qua 3-4 app (Maps -> TikTok -> FB). Nhóm sửa Problem Statement: chuyển trọng tâm từ "Thiếu bộ lọc địa điểm" sang "Thiếu công cụ xác thực chéo (cross-check) nhanh chóng về không gian (vibe) và tình trạng thực tế".
@@ -156,18 +157,25 @@ Setup hệ thống Automation: 8:00 AM hàng ngày -> Tự động query Databas
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Khi nghe các vấn đề từ các bạn, tôi nhận ra một "problem" (vấn đề) tốt phải có độ đồng cảm (relatability) cao. Đề tài "Thủ thư" của tôi lúc đầu tuy có ý nghĩa về mặt tối ưu hệ thống, nhưng lại quá ngách và thiếu cảm xúc. Trong khi đó, vấn đề "Tìm địa điểm đi chơi" của Vinh vừa được nêu ra là cả nhóm đều ồ lên gật gù, vì ai cũng từng trải qua nỗi bực dọc khi đến nơi mà quán hết bàn hoặc nhạc quá ồn không nói chuyện được. Tôi học được rằng, việc chọn đúng bài toán có "pain point" chạm đến số đông trong cuộc sống hàng ngày sẽ giúp quá trình tìm kiếm mẫu phỏng vấn và khai thác insight sau này dễ thở, chân thực hơn rất nhiều.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Có, nhóm đã bị cuốn vào bẫy "solution-first" ngay ở buổi làm việc thứ hai. Khi vừa chốt đề tài, một vài thành viên đã vội vã đề xuất: "Hay mình làm một cái app bản đồ mới tích hợp video giống hệt TikTok?". Thật may là khi bắt tay vào vẽ As-is Workflow (quy trình hiện tại), nhóm nhận ra người dùng vốn dĩ không cần một bản đồ mới vì Google Maps đã làm quá tốt việc dẫn đường, cái họ cần là công cụ để "xác thực" không gian. Nhóm lập tức phanh lại, quay về bám sát vào bước bottleneck (điểm nghẽn xác thực thông tin) trong quy trình để đào sâu vấn đề, từ chối việc thảo luận tiếp về các tính năng của app.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Tôi đã thay đổi định kiến hoàn toàn ở phần bảo vệ Problem Card #1 của mình (Thủ thư tra cứu vị trí sách). Lúc đầu tôi đinh ninh đây là "đất diễn" tuyệt vời cho AI. Nhưng khi bị nhóm phản biện rằng: "Nếu hệ thống cơ sở dữ liệu đã có sẵn tình trạng sách, tại sao không làm bộ lọc tìm kiếm thông thường (Rule-based) cho tốt mà phải nhồi nhét AI vào?", tôi đã khựng lại. Ngẫm lại, tôi nhận ra mình đã cố tình cường điệu hóa vấn đề để có cớ dùng AI, chứ thực tế bài toán đó giải quyết bằng phần mềm truyền thống sẽ rẻ và nhanh hơn. Tôi lập tức đồng ý hạ độ ưu tiên của card cá nhân mình xuống và dồn phiếu vote cho bài của Vinh.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Cực kỳ bất ngờ. Trước khi phỏng vấn, tôi mang một giả định (assumption) rằng người dùng tốn 40-60 phút tìm địa điểm vì họ "lười" và hệ thống filter của các app hiện tại quá rườm rà. Nhưng thực tế phỏng vấn chỉ ra điều ngược lại: người dùng rất "siêng năng". Họ sẵn sàng mở song song 3-4 nền tảng (Maps, Instagram, TikTok, Facebook) chỉ để kiểm tra chéo (cross-check) một quán cafe. Điều làm tôi bất ngờ nhất là "sự khủng hoảng niềm tin": họ hoàn toàn không còn tin vào các bài review 5 sao hay hình ảnh lung linh do quán tự đăng nữa, họ khao khát các video quay thực tế từ cộng đồng để thẩm định "vibe".
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Khó nhất là việc "kìm nén" để không vô tình nhét giải pháp (solution) vào câu phát biểu vấn đề. Rất nhiều lần tôi vô thức nháp ra những câu như: "Người dùng cần một ứng dụng AI tổng hợp video để xem vibe quán...". Phải sửa đi sửa lại, gọt giũa từ ngữ nhiều lần mới ra được câu thuần túy miêu tả nỗi đau hiện tại: "Người dùng mất nhiều thời gian xác thực chéo thông tin... do mất niềm tin vào review ảo". Việc phân biệt rạch ròi giữa "Cái người dùng đang vật lộn" (Problem) và "Cái mình tính làm" (Solution) thực sự tốn rất nhiều chất xám.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu làm lại, tôi sẽ phản biện nhóm mạnh mẽ hơn ở phần xác định Đối tượng (Actor). Ban đầu nhóm khá tham lam khi muốn khoanh vùng "tất cả những người đi chơi cuối tuần". Tôi sẽ ép nhóm thu hẹp ngay từ đầu xuống tệp "Người chịu trách nhiệm tìm chỗ (Leader/Organizer) cho nhóm đông người", vì đây mới là tệp cảm nhận nỗi đau sâu sắc nhất (chịu áp lực chọn sai quán sẽ bị bạn bè chê trách). Thu hẹp đối tượng sớm sẽ giúp các câu hỏi phỏng vấn sâu sắc, đi thẳng vào trọng tâm hơn thay vì dàn trải.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Vấn đề cốt lõi (Problem) là người dùng mất niềm tin vào review tĩnh, khiến họ tốn quá nhiều thời gian để xác thực chéo nhằm tìm không gian (vibe) và tình trạng chỗ ngồi thực tế. Quy trình hiện tại (Workflow) của họ bị nghẽn nghiêm trọng ở bước phải thoát app bản đồ, lặn lội lên TikTok/Facebook đọc bình luận để tự đối chiếu độ chân thực. Mục tiêu (Metric) của giải pháp là phải triệt tiêu thao tác nhảy app này, giảm thời gian chốt địa điểm từ 45 phút xuống dưới 5 phút. Ranh giới hệ thống (Boundary) được xác định rõ là chỉ xử lý dữ liệu cho các địa điểm có digital footprint (có video check-in cộng đồng), không áp dụng cho quán vỉa hè không ai biết tới. Từ đó, mức can thiệp AI lý tưởng là dùng một Agent Aggregator (Vision + LLM) để tự động quét, đọc hiểu và tóm tắt "vibe" từ các nền tảng mạng xã hội khác. Quyết định (Decision) cuối cùng là xây dựng một công cụ đối chiếu thông tin (dạng plugin/mini-app) bám vào hành vi hiện hành, chứ tuyệt đối không đi làm lại một chiếc bản đồ Google Maps thứ hai.
 
 ---
 
